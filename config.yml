@@ -1,9 +1,25 @@
-baseURL: http://example.org/
+baseURL: https://claytoneasley.org
 languageCode: en-us
-title: 
+title: Clayton Easley
 theme: hugo-PaperMod
 author:
   name: Clayton Easley
   headline: welcome to my blog
   bio: this is where the bio is
-  
+
+
+
+menu:
+  main:
+  - identifier: categories
+    name: Categories
+    url: /categories/
+    weight: 10
+  - identifier: posts
+    name: Posts
+    url: /posts/
+    weight: 20
+  - identifier: archives
+    name: Ideas
+    url: /archives/
+    weight: 30
