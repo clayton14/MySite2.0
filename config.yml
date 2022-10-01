@@ -1,7 +1,7 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: IDK
-theme: blowfish
+title: 
+theme: hugo-PaperMod
 author:
   name: Clayton Easley
   headline: welcome to my blog
