@@ -7,7 +7,11 @@ author:
   headline: welcome to my blog
   bio: this is where the bio is
 
+params:
+  cover:
+    linkFullImages: true
 
+ShowBreadCrumbs: true
 
 menu:
   main:
