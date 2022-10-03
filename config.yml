@@ -8,10 +8,26 @@ author:
   bio: this is where the bio is
 
 params:
+  defaultTheme: dark
+
+  homeInfoParams:
+    Title: "Welcome to Clayton's Site"
+    Content: "Welcome to my blog! This is where I document all my projects and Ideas to share with you. If you like the content consider sharing with a friend 😃."
+  socialIcons:
+    - name: github
+      url: https://github.com/clayton14
+    - name: 
+
   cover:
     linkFullImages: true
+  
+  editPost:
+    URL: 
 
-ShowBreadCrumbs: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
 
 menu:
   main:
@@ -23,7 +39,7 @@ menu:
     name: Posts
     url: /posts/
     weight: 20
-  - identifier: archives
-    name: Ideas
-    url: /archives/
+  - identifier: tags
+    name: Tags
+    url: /tags/
     weight: 30
