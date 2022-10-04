@@ -22,7 +22,7 @@ If you want to test out the site on your computer than (run on localhost) here i
  
 2. Run these commands
 3. `git clone https://github.com/clayton14/MySite2.0.git`
-4. cd into `MySite2.0`
+4. cd into `MySite2.0/src`
 5. run `hugo server`
 6. Open `http://localhost:1313` in your web browser
 
