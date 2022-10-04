@@ -10,3 +10,4 @@ see how to preview your changes locally [here](/src/README.md)
 
 ## I have a suggestion or an upgrade
 
+If you have a sugustion for something I should add to my website then the same process above should follow. Until I setup an email server send me suggestions here in github
