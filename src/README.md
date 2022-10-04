@@ -34,4 +34,4 @@ Want to contribute? read the [contributing](/CONTRIBUTING.md) guide
  
 
 ### Where is version 1.0
-In short I was writing my old website in raw html, css an js and this process was taking too log for me so I switched to using [Hugo](https://gohugo.io/) to speed up the process. If you want to see the old site (you don't) you can view the archived repo [here](https://github.com/clayton14/MySite).  
+In short I was writing my old website in raw html, css an js and this process was taking too log for me so I switched to using [Hugo](https://gohugo.io/) to speed up the process. If you want to see the old site (you don't) you can view the archived repo [here](https://github.com/clayton14/MySite). I was spending too much time making stylizing my site rather then making  content.
