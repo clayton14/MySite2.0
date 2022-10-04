@@ -8,10 +8,10 @@ categories: ["Projects"]
 tags: ["engineering","welding"]
 weight:
 cover: 
-    image: img/test.png
+    image: 
 ---
 
-## Plan
+# The Plan
 
 
 ## Design
