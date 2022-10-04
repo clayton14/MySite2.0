@@ -2,12 +2,13 @@
 title: "Hi there "
 date: 2022-09-30T21:13:46-04:00
 draft: false
+ShowToc: true
 author: Clayton Easley
 tags: ["HUGO", "me"]
 categories: ["Ideas"]
+weight: 1
 cover:
     image: 
-weight: 1
 ---  
 
 
