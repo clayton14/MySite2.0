@@ -98,6 +98,16 @@
     height: auto;
 }
 
+.entry-thumbnail img{
+    border-radius: var(--radius);
+    pointer-events: none;
+    width: 35%;
+    height: auto;
+    margin: 5%;
+
+}
+
+
 .entry-cover a {
     color: var(--secondary);
     box-shadow: 0 1px 0 var(--primary);
