@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on IDK</title>
-    <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on IDK</description>
+    <title>Tags on Clayton Easley</title>
+    <link>https://claytoneasley.org/tags/</link>
+    <description>Recent content in Tags on Clayton Easley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Sep 2022 21:13:46 -0400</lastBuildDate><atom:link href="https://claytoneasley.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HUGO</title>
+      <link>https://claytoneasley.org/tags/hugo/</link>
+      <pubDate>Fri, 30 Sep 2022 21:13:46 -0400</pubDate>
+      
+      <guid>https://claytoneasley.org/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>me</title>
+      <link>https://claytoneasley.org/tags/me/</link>
+      <pubDate>Fri, 30 Sep 2022 21:13:46 -0400</pubDate>
+      
+      <guid>https://claytoneasley.org/tags/me/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on IDK</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on IDK</description>
+    <title>Posts on Clayton Easley</title>
+    <link>https://claytoneasley.org/posts/</link>
+    <description>Recent content in Posts on Clayton Easley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Sep 2022 21:13:46 -0400</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Sep 2022 21:13:46 -0400</lastBuildDate><atom:link href="https://claytoneasley.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First</title>
-      <link>http://example.org/posts/first/</link>
+      <title>Hi there </title>
+      <link>https://claytoneasley.org/posts/firstpost/</link>
       <pubDate>Fri, 30 Sep 2022 21:13:46 -0400</pubDate>
       
-      <guid>http://example.org/posts/first/</guid>
-      <description></description>
+      <guid>https://claytoneasley.org/posts/firstpost/</guid>
+      <description>Who is Clayton Easley ? Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming, photography, electronics, art, welding, robots, and machine learning. As time progresses this list might change because at the time of writing I am still in highschool and still don&amp;rsquo;t know what to do with my life. For those who managed to stumble on this small corner of the intent I hope you find this site of some use and enjoyment.</description>
     </item>
     
   </channel>
