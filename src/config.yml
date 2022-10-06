@@ -22,7 +22,8 @@ params:
     linkFullImages: true
   
   editPost:
-    URL: https://github.com/clayton14/MySite2.0/tree/edits
+    URL: https://github.com/clayton14/MySite2.0/blob/main/src/content
+    Text: Edit 
     appendFilePath: true
 
   ShowBreadCrumbs: true
