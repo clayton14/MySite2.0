@@ -22,9 +22,9 @@ params:
     linkFullImages: true
   
   editPost:
-    URL: https://github.com/clayton14/MySite2.0/blob/main/src/content
+    URL: https://github.com/clayton14/MySite2.0
     Text: Edit 
-    appendFilePath: true
+   
 
   ShowBreadCrumbs: true
   ShowReadingTime: true
