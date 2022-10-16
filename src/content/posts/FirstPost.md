@@ -8,7 +8,7 @@ tags: ["HUGO", "me"]
 categories: ["Ideas"]
 weight: 1
 cover:
----  
+---
 
 
 ## Who is Clayton Easley ? 
