@@ -1,0 +1,25 @@
+From af8e869017aad76278d2a4fcc0ca8bfeef896bff Mon Sep 17 00:00:00 2001
+From: clayton14 <claytoneasley77@gmail.com>
+Date: Thu, 10 Nov 2022 10:00:45 -0500
+Subject: [PATCH] ignore update script
+
+---
+ .gitignore | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/.gitignore b/.gitignore
+index 4e8c906..1896cb6 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,4 +1,5 @@
+ .hugo_build.lock
+ src/static/audio
+ src/static/img
+-src/public/
+\ No newline at end of file
++src/public/
++update.sh
+\ No newline at end of file
+-- 
+2.38.1
+
