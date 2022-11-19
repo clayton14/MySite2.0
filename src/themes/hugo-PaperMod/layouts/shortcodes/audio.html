@@ -1,5 +1,5 @@
 <!-- https://www.johnarroyo.com/2021/02/adding-audio-to-hugo/#:~:text=Embedding%20audio%20with%20Hugo%20shortcodes&text=All%20you%20need%20to%20do,and%20text%2Ftemplate%20core%20libraries. -->
-<figure {{ with .Get "class" }}class="{{ . }}"{{ e>
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}}>
     <audio controls preload="{{ .Get "preload" | default "metadata" }}">
       {{ with .Get "src" }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
     </audio>
