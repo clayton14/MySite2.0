@@ -8,6 +8,7 @@ tags: ["HUGO", "me"]
 categories: ["Ideas"]
 weight: 1
 cover:
+    image: https://ipfs.io/ipfs/QmQq1Thx6YmcNdQH9SGTGqdgeZmwaKa5B62C487gfNnFtg
 ---
 
 
