@@ -16,7 +16,10 @@ params:
   socialIcons:
     - name: github
       url: https://github.com/clayton14
-    - name: 
+    - name: instagram
+      url: https://www.instagram.com/claytoneasley77/
+    - name: linkedin
+      url: https://www.linkedin.com/in/clayton-easley/
 
   cover:
     linkFullImages: true
