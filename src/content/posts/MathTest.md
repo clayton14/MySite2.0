@@ -9,3 +9,16 @@ categories:
 cover:
     image:
 ---
+
+Ok lets look at some numbers
+
+
+{{< math  >}} 
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
+$$ x = {(a^2-2b) \over \pi}$$
+
+{{< /math >}}
+
+{{% figure %}}
