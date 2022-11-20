@@ -5,8 +5,8 @@ draft: true
 ShowToc: true
 author: Clayton Easley
 categories: ["Projects"]
-tags: ["engineering","welding"]
-weight:
+tags: ["engineering", "welding"]
+weight: 2
 cover: 
     image: 
 ---
