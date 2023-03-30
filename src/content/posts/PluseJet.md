@@ -31,6 +31,7 @@ In order to understand what a Valveless pulse jet is you first need to understan
 
 The jet that I have been building is based on the [Lockwood-Hiller Design](https://patents.google.com/patent/US3462955A/en). I have referenced a decent amount of information on [Bruce Simpson blog](https://aardvark.co.nz/pjet/valveless.htm) about Valveless pulse jets. 
 
+![JetDiagram](/img/JetDiagram.png)
 
 ## Planning and Designing 
 
