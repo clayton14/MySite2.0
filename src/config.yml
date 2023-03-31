@@ -1,7 +1,7 @@
 baseURL: https://claytoneasley.org
 languageCode: en-us
 title: Clayton Easley
-theme: hugo-PaperMod
+theme: PaperModX
 author:
   name: Clayton Easley
   headline: welcome to my blog
