@@ -32,4 +32,5 @@ Recently I found a pretty cool static site generator known as [Hugo](https://goh
 
 Now that we have that out of the way, what is a static __site generator__? A static site generator is a piece of software that lets you use templates to generate full static HTML code. In my case all I have to do is put the content in a markdown file and Hugo does all the heavy lifting for me. I Won't go down the Hugo rabbit hole in this post  but maybe I will make a tutorial on it in the future. 
 
-The theme I am using is under the [MIT license](https://choosealicense.com/licenses/mit/) and was developed by [Aditya Telange](https://github.com/adityatelange?tab=repositories)
+The theme I am using is under the [MIT license](https://choosealicense.com/licenses/mit/) and was developed by [Aditya Telange](https://github.com/adityatelange?tab=repositories).
+I am now using a fork of PaperMod called [PaperModX](https://github.com/reorx/hugo-PaperModX)
