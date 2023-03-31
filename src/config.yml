@@ -9,6 +9,8 @@ author:
 
 params:
   defaultTheme: dark
+  TocSide: left
+  EnableInstantClick: true
 
   homeInfoParams:
     Title: "Welcome to Clayton's Site"
