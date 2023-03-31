@@ -39,10 +39,16 @@ The jet that I have been building is based on the [Lockwood-Hiller Design](https
 
 ![](/img/PluseingPluesJet.gif#center) -->
 
+<!-- {{< rawhtml >}}
+<div style="display:inline-block;">
+    <img style="float: left;" width=70% height=70% src="/img/JetDiagram.png"></img>
+    <img style="float: center;" width=70% height=70% src="/img/PluseingPluesJet.gif"></img>
+</div>
+{{< /rawhtml >}} -->
 
-{{< inTextImg  width=70% height=70% src="/img/JetDiagram.png" >}} 
+<!-- {{< inTextImg  width=70% height=70% src="/img/JetDiagram.png" >}}  -->
 
-{{< inTextImg style="display: flex" src=/img/PluseingPluesJet.gif >}}
+<!-- {{< inTextImg style="display: flex" src=/img/PluseingPluesJet.gif >}} -->
 
 
 ## Planning and Designing 
