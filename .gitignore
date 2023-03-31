@@ -2,4 +2,5 @@
 src/static/audio
 src/static/img
 src/public/
+src/themes
 update.sh
