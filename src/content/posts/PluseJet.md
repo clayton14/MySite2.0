@@ -1,5 +1,5 @@
 ---
-title: "PluseJet"
+title: "Making a Valveless pulsejet"
 date: 2022-10-01T17:33:07-04:00
 draft: true
 ShowToc: true
@@ -8,12 +8,12 @@ categories: ["Projects"]
 tags: ["engineering", "welding"]
 weight: 2
 cover: 
-    image: https://lh3.googleusercontent.com/p1-LgiKx7G-Ev4YvaPqC6kTuOOND9xpXF4VgM-vIjDQQPdsyaH8-PrN9Z9jzMKiV5n-J24c1WP0ZWVISsrCgjlLw9-5fWLUhtC3Plv_XM5vMCqlMFr0IfPmfhhioK3HkotyFJVkSR9kJ3HhFZZotkXc5IWGrl5PA3EZNOzrwhOrqrBp5II_euHJcjJqDphqYXp_WLPf-hk43HMtlBfA2w-zXzT_Lror-terxDC1AsQWKliJqR1CD8i9JnfXV6qnPdyIZehoDrX9QO9hLgzqB_qBZ547gfaH9Ny4NVonTDf5ipOQf0PzJBNVfJIx2gc6TQ55wC6hwQEGOntRL7Rkr-2MnLuY47Rh_6Enr4hFwxtLMjPlRFDt8ki_Or8gC5GVaV34DFIVqeE8Ua-fF7c4D20LhMntgmgpoli2g2klqJwI65OojX8mzE17bGg6Rswe-EQO4kwHs805YK87xDuYHjC_QRLhqXtloYpDjZIU4pxHO9gq1zVuNWi0RDAW2sBvtX8f0ImSSR5F6b6drFDHu1MII3sZgnsfRpmtODkZmtDjZh2_dEqPjsboCqUHAUbTbthDsxIJBZB6gNGmUHX1jX-um39OMypCqe55nr7Kd_hypzrRbwanUmVckSOXa8Z5VjqIC6P8xtWARpZIEzqXDj3ztKY9b9m6DMCIFiP6ypblMmAS3uRoO4Lif-yX4J3w_UA8_XOi3a7Fm92L1eiYGhDovPAHpNeTY88U0-ZlQgd_WIP83-yMGsdhgWZ96UvFFRUJMMc3955eVektp1qKwP5wbg99eMDMkFgLEX_McEZMUPaRYdccEaghs9Nh6da_wCmH3zmZ7pftDZaf9SAV3UmlkkMVJqWCY5HFmvloCdlF3gy6YnsXiWE5wPVbFghMGiPuCFt4NtYUDoqxNtQO414M3XYGjcW5hFEsXspaVDpmxyxnxcsii4rJqjMKHYskfaIzKp98IGml7CjvbUUmyQCYBijx9E4IIdtV_hTMEwhSI26GGgEqGsw3mcsahUkroS20GQ10F-wV2SH79bDp15IIbarV-
+    image: /img/MakingJet.jpg
 ---
 
-# Making a Valveless pulsejet
+<!-- https://lh3.googleusercontent.com/p1-LgiKx7G-Ev4YvaPqC6kTuOOND9xpXF4VgM-vIjDQQPdsyaH8-PrN9Z9jzMKiV5n-J24c1WP0ZWVISsrCgjlLw9-5fWLUhtC3Plv_XM5vMCqlMFr0IfPmfhhioK3HkotyFJVkSR9kJ3HhFZZotkXc5IWGrl5PA3EZNOzrwhOrqrBp5II_euHJcjJqDphqYXp_WLPf-hk43HMtlBfA2w-zXzT_Lror-terxDC1AsQWKliJqR1CD8i9JnfXV6qnPdyIZehoDrX9QO9hLgzqB_qBZ547gfaH9Ny4NVonTDf5ipOQf0PzJBNVfJIx2gc6TQ55wC6hwQEGOntRL7Rkr-2MnLuY47Rh_6Enr4hFwxtLMjPlRFDt8ki_Or8gC5GVaV34DFIVqeE8Ua-fF7c4D20LhMntgmgpoli2g2klqJwI65OojX8mzE17bGg6Rswe-EQO4kwHs805YK87xDuYHjC_QRLhqXtloYpDjZIU4pxHO9gq1zVuNWi0RDAW2sBvtX8f0ImSSR5F6b6drFDHu1MII3sZgnsfRpmtODkZmtDjZh2_dEqPjsboCqUHAUbTbthDsxIJBZB6gNGmUHX1jX-um39OMypCqe55nr7Kd_hypzrRbwanUmVckSOXa8Z5VjqIC6P8xtWARpZIEzqXDj3ztKY9b9m6DMCIFiP6ypblMmAS3uRoO4Lif-yX4J3w_UA8_XOi3a7Fm92L1eiYGhDovPAHpNeTY88U0-ZlQgd_WIP83-yMGsdhgWZ96UvFFRUJMMc3955eVektp1qKwP5wbg99eMDMkFgLEX_McEZMUPaRYdccEaghs9Nh6da_wCmH3zmZ7pftDZaf9SAV3UmlkkMVJqWCY5HFmvloCdlF3gy6YnsXiWE5wPVbFghMGiPuCFt4NtYUDoqxNtQO414M3XYGjcW5hFEsXspaVDpmxyxnxcsii4rJqjMKHYskfaIzKp98IGml7CjvbUUmyQCYBijx9E4IIdtV_hTMEwhSI26GGgEqGsw3mcsahUkroS20GQ10F-wV2SH79bDp15IIbarV- -->
 
-Hello 
+Hello  
 
 Haven't posted in a while and have been a bit busy with school.  I have decided to update you with one of my long and difficult projects. A project that might as well kill me if I am not careful enough. Yes, you read the title correctly, I am attempting to build a Valveless pulsejet. 
 
@@ -31,7 +31,19 @@ In order to understand what a Valveless pulse jet is you first need to understan
 
 The jet that I have been building is based on the [Lockwood-Hiller Design](https://patents.google.com/patent/US3462955A/en). I have referenced a decent amount of information on [Bruce Simpson blog](https://aardvark.co.nz/pjet/valveless.htm) about Valveless pulse jets. 
 
-![JetDiagram](/img/JetDiagram.png)
+<!-- ![JetDiagram](https://lh3.googleusercontent.com/TQ5KBmNZ_6gjp8VzHnLp_x29Ew5TPQC_XF1ATEhk7qjVMbMBag7gE27NtCrbaDgnmH_x8KRehQUtojFabgDopYt5JOyhh7_vr2DjKcBoQCfU7EPzTVhj_2UEn1a5HWGGqoW9reNuH5LA0MHQczmGjBt5KXe-Cxt6UDZSTUGBPJYfs9mkuOGVr5628pxTI94FsCp5ljL4bZ_pGmU8GqbwYPItN9lKxy-SrxTUrvb0HQvlpoJXjpK0RBwjyG5JZDYK1xOHCPzv0544Op9g6K1ojOMQe-jdb6LclQzIGvwD5zf9ZwKa9yc-GcMPXc9baMgtX5chytP0k7kygy2LibTKxhBANAulnq8ofF9yWZJxoRG6l0OurcXG_LTrmHQ6WuaQm_T1Q0kBmfa5GB2UPEURCsLQ9oMU9ojlPoXtCrqgej1NMxJGF5f_SwmuQymh7bslnZHVOUln8jO5-5lY1KL8x4h-3_qmfIkMayDMU5mmALjUAKtSPuFA2pzLTrF6IUIQuahNKkfvMdinqP-qgj0a5XJFKQy4Wfu3cWdDXGAqHRJM6Mn6Ow7X9bS1bDthMA_7A2iQpXF_5-sGQiZ457FrI5Nqnmu9Y1t3dAuA5ZCNenltQQwQWOtonpsFf1xqFohbgJIHk6PRnUt8y8Md5XrC4Uns_bxrQAiJECaODVXUuvGOfBYL4tNIKzST8VYQKR7So0WXGUGITZp81mKAD2VZg6db7mF-XHV5IBNvwkA3ObDcJnf8hAe3xX-mwLPA7K4MBnXF5VJCIik32klV5E56Ra64ajxRHnPfAML1fuT82ambnhEgNPu_tfw_SKcao9GNpETYQRxgK-OlipFrNq_efLErBcJ_afyb3yakZuuiQmMykP0iELpoLPUbWoXhHBdOcRcky4jE4dzFSbjvk3OHiEajGKqMq-LBeIyW0Iad0Al9GeOvRENx3v3bEX68yB2zo7mOjHwEYHrx8lr46z57lmGjdi81_is9rX-B0pH_cgCJDKUxO08M17BONju05zKMIdA2_1fJLDrl1N6f9ueJoMUSAs03=w1227-h686-s-no) -->
+
+
+<!-- 
+![](/img/JetDiagram.png#center) 
+
+![](/img/PluseingPluesJet.gif#center) -->
+
+
+{{< inTextImg  width=70% height=70% src="/img/JetDiagram.png" >}} 
+
+{{< inTextImg style="display: flex" src=/img/PluseingPluesJet.gif >}}
+
 
 ## Planning and Designing 
 
