@@ -3,14 +3,25 @@ languageCode: en-us
 title: Clayton Easley
 theme: PaperModX
 author:
-  name: Clayton Easley
+  name: Clayton Ea
   headline: welcome to my blog
   bio: this is where the bio is
 
 params:
   defaultTheme: dark
   TocSide: left
+  external: true
+  #search
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
   #EnableInstantClick: true
+
 
   homeInfoParams:
     Title: "Welcome to Clayton's Site"
@@ -33,11 +44,15 @@ params:
 
   ShowBreadCrumbs: true
   ShowReadingTime: true
-  ShowShareButtons: false
+  ShowShareButtons: true
   ShowPostNavLinks: true
 
 menu:
   main:
+  - identifier: Search
+    name: Search
+    weight: 5
+    url: /search/
   - identifier: categories
     name: Categories
     url: /categories/
