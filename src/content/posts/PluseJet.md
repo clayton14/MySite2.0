@@ -34,21 +34,8 @@ The jet that I have been building is based on the [Lockwood-Hiller Design](https
 <!-- ![JetDiagram](https://lh3.googleusercontent.com/TQ5KBmNZ_6gjp8VzHnLp_x29Ew5TPQC_XF1ATEhk7qjVMbMBag7gE27NtCrbaDgnmH_x8KRehQUtojFabgDopYt5JOyhh7_vr2DjKcBoQCfU7EPzTVhj_2UEn1a5HWGGqoW9reNuH5LA0MHQczmGjBt5KXe-Cxt6UDZSTUGBPJYfs9mkuOGVr5628pxTI94FsCp5ljL4bZ_pGmU8GqbwYPItN9lKxy-SrxTUrvb0HQvlpoJXjpK0RBwjyG5JZDYK1xOHCPzv0544Op9g6K1ojOMQe-jdb6LclQzIGvwD5zf9ZwKa9yc-GcMPXc9baMgtX5chytP0k7kygy2LibTKxhBANAulnq8ofF9yWZJxoRG6l0OurcXG_LTrmHQ6WuaQm_T1Q0kBmfa5GB2UPEURCsLQ9oMU9ojlPoXtCrqgej1NMxJGF5f_SwmuQymh7bslnZHVOUln8jO5-5lY1KL8x4h-3_qmfIkMayDMU5mmALjUAKtSPuFA2pzLTrF6IUIQuahNKkfvMdinqP-qgj0a5XJFKQy4Wfu3cWdDXGAqHRJM6Mn6Ow7X9bS1bDthMA_7A2iQpXF_5-sGQiZ457FrI5Nqnmu9Y1t3dAuA5ZCNenltQQwQWOtonpsFf1xqFohbgJIHk6PRnUt8y8Md5XrC4Uns_bxrQAiJECaODVXUuvGOfBYL4tNIKzST8VYQKR7So0WXGUGITZp81mKAD2VZg6db7mF-XHV5IBNvwkA3ObDcJnf8hAe3xX-mwLPA7K4MBnXF5VJCIik32klV5E56Ra64ajxRHnPfAML1fuT82ambnhEgNPu_tfw_SKcao9GNpETYQRxgK-OlipFrNq_efLErBcJ_afyb3yakZuuiQmMykP0iELpoLPUbWoXhHBdOcRcky4jE4dzFSbjvk3OHiEajGKqMq-LBeIyW0Iad0Al9GeOvRENx3v3bEX68yB2zo7mOjHwEYHrx8lr46z57lmGjdi81_is9rX-B0pH_cgCJDKUxO08M17BONju05zKMIdA2_1fJLDrl1N6f9ueJoMUSAs03=w1227-h686-s-no) -->
 
 
-<!-- 
-![](/img/JetDiagram.png#center) 
 
-![](/img/PluseingPluesJet.gif#center) -->
-
-<!-- {{< rawhtml >}}
-<div style="display:inline-block;">
-    <img style="float: left;" width=70% height=70% src="/img/JetDiagram.png"></img>
-    <img style="float: center;" width=70% height=70% src="/img/PluseingPluesJet.gif"></img>
-</div>
-{{< /rawhtml >}} -->
-
-<!-- {{< inTextImg  width=70% height=70% src="/img/JetDiagram.png" >}}  -->
-
-<!-- {{< inTextImg style="display: flex" src=/img/PluseingPluesJet.gif >}} -->
+{{< inTextImg style="display: flex" src=img/JetDiagram.png >}}
 
 
 ## Planning and Designing 
