@@ -37,7 +37,11 @@ As of now I only have designs for the main body of the engine. I have yet to con
 The next thing to do is obtaining the parts and making sure you have all the necessary tools and skill to assemble the engine. Rember, the idea behind a valveless pulse jet is that it has no moving parts, thus making the manufacturing process more simple. This project required me to weld all the pisces together so I would need all the appropriate [welding PPE](https://www.ccohs.ca/oshanswers/safety_haz/welding/ppe.html)  such as:
 - Helmet
 - Gloves 
-- Steel toe shoesExplain necessary partsThe next step would be obtaining all the parts if you want to base it off of my design you can view the &lt;BOM here>. Another important step is making sure you have all the necessary tools to assemble the engine. Luckily for me I am enrolled in a technical school where they offer welding as a class. This way I could use their tools to work on this project. I have almost all the tools required at home. The only thing I was missing was a slip roll forming machine I used to make the exhaust cone.Here is my minimum number of tools required to assemble the frame:- TIG welder (better control on thin metals)
+- Steel toe shoes
+
+Explain necessary parts
+
+The next step would be obtaining all the parts if you want to base it off of my design you can view the &lt;BOM here>. Another important step is making sure you have all the necessary tools to assemble the engine. Luckily for me I am enrolled in a technical school where they offer welding as a class. This way I could use their tools to work on this project. I have almost all the tools required at home. The only thing I was missing was a slip roll forming machine I used to make the exhaust cone.Here is my minimum number of tools required to assemble the frame:- TIG welder (better control on thin metals)
 - slip roll forming machine
 - Level 
 - Tape measure

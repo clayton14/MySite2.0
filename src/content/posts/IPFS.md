@@ -5,7 +5,7 @@ draft: true
 ShowToc: true
 author: Clayton Easley
 tags: 
-weight: 2
+weight: 3
 categories:
 cover:
     image: img/IPFS1.png
