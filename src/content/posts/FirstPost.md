@@ -8,7 +8,7 @@ tags: ["HUGO", "me"]
 categories: ["Ideas"]
 weight: 1
 cover:
-    image: img/Welcome.png
+    image: img/Welcome.webp
 ---
 
 
