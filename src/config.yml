@@ -8,6 +8,10 @@ author:
   bio: this is where the bio is
 
 params:
+
+  Description: "Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming, photography, electronics, art, welding, robots, and machine learning."
+
+
   defaultTheme: dark
   TocSide: left
   external: true
