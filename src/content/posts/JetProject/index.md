@@ -55,12 +55,12 @@ This project required me to weld all the pisces together so I would need all the
 - Gloves
 - Steel toe shoes
 
-|                                  |                                                                                |        |
-| -------------------------------- | ------------------------------------------------------------------------------ | ------ |
-| Picture                          | Item                                                                           | Amount |
-| ![](/img/Jet/elbow.webp)         | # 3.5" Stainless 90° Mandrel Bend Elbow                                        | x2     |
-| ![](/img/Jet/reducer.webp)       | # Stainless Steel T201 Exhaust Piping Reducer 3.5" to 4" Universal 3.7" length | x2     |
-| ![](/src/static/img/Jet/elbow.webp)        | 5" SCH 40 (5.563 OD X .258 wall) A-500 ERW Structural Steel Pipe               | x1     |
+|                       |                                                                                |        |
+| --------------------- | ------------------------------------------------------------------------------ | ------ |
+| Picture               | Item                                                                           | Amount |
+| ![](img/elbow.webp)   | # 3.5" Stainless 90° Mandrel Bend Elbow                                        | x2     |
+| ![](img/reducer.webp) | # Stainless Steel T201 Exhaust Piping Reducer 3.5" to 4" Universal 3.7" length | x2     |
+| ![](img/elbow.webp)   | 5" SCH 40 (5.563 OD X .258 wall) A-500 ERW Structural Steel Pipe               | x1     |
 
 <!-- | Picture | Item | Amount |
 | --------|------|--------|
