@@ -6,7 +6,7 @@ ShowToc: true
 author: Clayton Easley
 categories: ["Projects"]
 tags: ["engineering", "welding"]
-description: "During my highschool Dual enrollment welding program I started to work on building a pulse jet!"
+description: "During my highschool Dual enrollment welding program I decided to start working on building a pulse jet! Here is how I did it."
 weight: 2
 cover:
   image: /img/Jet/MakingJet.webp
@@ -28,7 +28,7 @@ The jet that I have been building is based on the [Lockwood-Hiller Design](https
 
 The size of the jet is not that much of an issue, I have seen people make much smaller ones that are mounted onto RC planes and even some made out of soup cans.
 
-![](https://lh4.googleusercontent.com/DbFQy0sVFmGmEm7Wj93rXeOHTeflvPkf0KfeQEa1UFX7gJTdJz1RhaXeuJTwrtYtoO9SMchPu7A5R-HX2iuSn0FrtjUss4zlN4apzceSQzfrTrMU8z1OSqiuZ44nsb2jMO34XMkEXQ-Bur8TGTTeDm8)
+![](img/JetDiaggram.webp)
 
 ## Who In Their Right Mind Would Do This?   
 
@@ -57,16 +57,12 @@ This project required me to weld all the pisces together so I would need all the
 - Steel toe shoes
 - Safety glasses
 
-|                                   |                                                                                |        |
-| --------------------------------- | ------------------------------------------------------------------------------ | ------ |
-| Picture                           | Item                                                                           | Amount |
-| ![](img/elbow.webp)               | # 3.5" Stainless 90° Mandrel Bend Elbow                                        | x2     |
-| ![](img/reducer.webp)             | # Stainless Steel T201 Exhaust Piping Reducer 3.5" to 4" Universal 3.7" length | x2     |
-| ![](img/StructuralSteelPipe.webp) | 5" SCH 40 (5.563 OD X .258 wall) A-500 ERW Structural Steel Pipe               | x1     |
-
-<!-- | Picture | Item | Amount |
-| --------|------|--------|
-| ![](/img/clayton.jpeg)| -->
+|                                                                   |                                                                              |        |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------ |
+| Picture                                                           | Item                                                                         | Amount |
+| ![3.5" Stainless 90° Mandrel Bend Elbow](img/elbow.webp)          | 3.5" Stainless 90° Mandrel Bend Elbow                                        | x2     |
+| ![Stainless Steel Reducer ](img/reducer.webp)                     | Stainless Steel T201 Exhaust Piping Reducer 3.5" to 4" Universal 3.7" length | x2     |
+| ![5" SCH 40 Structural Steel Pipe ](img/StructuralSteelPipe.webp) | 5" SCH 40 (5.563 OD X .258 wall) A-500 ERW Structural Steel Pipe             | x1     |
 
 The next step would be obtaining all the parts if you want to base it off of my design. Another important step is making sure you have all the necessary tools to assemble the engine. Luckily for me I am enrolled in a technical school where they offer welding as a class. This way I could use their tools to work on this project. I have almost all the tools required at home. The only thing I was missing was a slip roll forming machine I used to make the exhaust cone.
 
@@ -82,9 +78,15 @@ Here is my minimum number of tools required to assemble the frame:
 
 ## Welding and Assembly
 
-Here is the part you have all been waiting for, assembly.  I wanted to start off with assembling the combustion chamber as it was the easiest to weld. I slipped the reducers into either side of the combustion chamber and used 3/16 filler rod wire as a spacer to make sure it was centered. After making sure everything was level and centered I tack welded the two together. When tack welding the reducer the the combustion chamber I made sure **the tack welds are directly across from one another**. This is very important, otherwise when you go to weld the two together one side will pull on the other making the reducer crooked. ![](https://lh6.googleusercontent.com/86yuYD_40y7kAa1OGCG8FsabkBgfP_YrqPi-tvFcAMujTa0v1KwXKwz0RZ4n-mIvimP_65VyPPPcsOUdLbaQG9MZGvqOwIlA94DGemsEu4z4wS1EXN_LWZZn9uegDEqX6GzITk9RoIn_KURZKqhKiKA)
+Here is the part you have all been waiting for, assembly.  I wanted to start off with assembling the combustion chamber as it was the easiest to weld. I slipped the reducers into either side of the combustion chamber and used 3/16 filler rod wire as a spacer to make sure it was centered. After making sure everything was level and centered I tack welded the two together. When tack welding the reducer the the combustion chamber I made sure **the tack welds are directly across from one another**. This is very important, otherwise when you go to weld the two together one side will pull on the other making the reducer crooked. 
 
-![](https://lh4.googleusercontent.com/UtObXJf66lEKnke8n4CzgIK9tkoQWvgHUonO98BotXLjRnk-R49QmYQ0fXNY76qBcGRGioaxEVsMvdSqshbHAd7CZ-TOmXzPmt-GW7vSmo0Dw2RFkt1CEJpxJLPm-vTlZPKIjj7xi0u5PEGjVvknftI)
+
+
+{{< figure src="https://lh6.googleusercontent.com/86yuYD_40y7kAa1OGCG8FsabkBgfP_YrqPi-tvFcAMujTa0v1KwXKwz0RZ4n-mIvimP_65VyPPPcsOUdLbaQG9MZGvqOwIlA94DGemsEu4z4wS1EXN_LWZZn9uegDEqX6GzITk9RoIn_KURZKqhKiKA" alt="3/16 filler rod wire as spacer" >}}
+  
+{{< figure src=https://lh4.googleusercontent.com/UtObXJf66lEKnke8n4CzgIK9tkoQWvgHUonO98BotXLjRnk-R49QmYQ0fXNY76qBcGRGioaxEVsMvdSqshbHAd7CZ-TOmXzPmt-GW7vSmo0Dw2RFkt1CEJpxJLPm-vTlZPKIjj7xi0u5PEGjVvknftI >}}
+
+
 
 At the time, I wasn't the best pipe welder so my welds did not come out perfect. I will probably go back and redo most of my welds on this project because they are a bit messy. Anyway after welding both reducers onto the combustion chamber you should have something that looks like this
 
