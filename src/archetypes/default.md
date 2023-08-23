@@ -4,7 +4,8 @@ date: {{ .Date }}
 draft: true
 ShowToc: true
 author: Clayton Easley
-tags: 
+tags:
+description: 
 categories:
 cover:
     image:
