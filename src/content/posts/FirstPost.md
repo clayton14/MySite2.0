@@ -6,6 +6,7 @@ ShowToc: true
 author: Clayton Easley
 tags: ["HUGO", "me"]
 categories: ["Ideas"]
+description: Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming, photography, electronics, art, welding, robots, and machine learning.
 weight: 1
 cover:
     image: img/Welcome.webp

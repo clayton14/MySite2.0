@@ -6,6 +6,7 @@ ShowToc: true
 author: Clayton Easley
 categories: ["Projects"]
 tags: ["engineering", "welding"]
+description: "During my highschool Dual enrollment welding program I started to work on building a pulse jet!"
 weight: 2
 cover:
   image: /img/Jet/MakingJet.webp
@@ -54,13 +55,14 @@ This project required me to weld all the pisces together so I would need all the
 - Helmet
 - Gloves
 - Steel toe shoes
+- Safety glasses
 
-|                       |                                                                                |        |
-| --------------------- | ------------------------------------------------------------------------------ | ------ |
-| Picture               | Item                                                                           | Amount |
-| ![](img/elbow.webp)   | # 3.5" Stainless 90° Mandrel Bend Elbow                                        | x2     |
-| ![](img/reducer.webp) | # Stainless Steel T201 Exhaust Piping Reducer 3.5" to 4" Universal 3.7" length | x2     |
-| ![](img/elbow.webp)   | 5" SCH 40 (5.563 OD X .258 wall) A-500 ERW Structural Steel Pipe               | x1     |
+|                                   |                                                                                |        |
+| --------------------------------- | ------------------------------------------------------------------------------ | ------ |
+| Picture                           | Item                                                                           | Amount |
+| ![](img/elbow.webp)               | # 3.5" Stainless 90° Mandrel Bend Elbow                                        | x2     |
+| ![](img/reducer.webp)             | # Stainless Steel T201 Exhaust Piping Reducer 3.5" to 4" Universal 3.7" length | x2     |
+| ![](img/StructuralSteelPipe.webp) | 5" SCH 40 (5.563 OD X .258 wall) A-500 ERW Structural Steel Pipe               | x1     |
 
 <!-- | Picture | Item | Amount |
 | --------|------|--------|
