@@ -7,8 +7,11 @@ author:
   headline: welcome to my blog
   bio: this is where the bio is
 
+googleAnalytics: G-M50KSRMNSP
+
 params:
   env: production
+
   Description: "Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming, photography, electronics, art, welding, robots, and machine learning."
   defaultTheme: dark
   TocSide: left
@@ -26,7 +29,7 @@ params:
 
   homeInfoParams:
     Title: "Welcome to Clayton's Site"
-    Content: "Welcome to my blog! This is where I document all my projects and Ideas to share with you. If you like the content consider sharing with a friend 😃."
+    Content: "Welcome to my blog! This is where I document all my projects and Ideas to share with you. If you like the content consider sharing with a friend 😃. \n\n\n WARNING: Google Analytics Enabled"
   socialIcons:
     - name: github
       url: https://github.com/clayton14
