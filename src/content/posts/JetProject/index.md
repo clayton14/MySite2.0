@@ -1,7 +1,7 @@
 ---
 title: "Making a Valveless pulsejet part 1"
 date: 2022-10-01T17:33:07-04:00
-draft: true
+draft: false
 ShowToc: true
 author: Clayton Easley
 categories: ["Projects"]
@@ -17,8 +17,7 @@ cover:
 
 Hello
 
-Haven't posted in a while and have been a bit busy with school.  I have decided to update you with one of my long and difficult projects. A project that might as well kill me if I am not careful enough. Yes, you read the title correctly, I am attempting to build a Valveless pulsejet. I have been working on this project for almost two years! Due to school and work finding the time to put this article together and post it took a significant amount of time, and well… and courage if i'm being honest. 
-
+Haven't posted in a while and have been a bit busy with school.  I have decided to update you with one of my long and difficult projects. A project that might as well kill me if I am not careful enough. Yes, you read the title correctly, I am attempting to build a Valveless pulsejet. I have been working on this project for almost two years! Due to school and work finding the time to put this article together and post it took a significant amount of time, and well… and courage if i'm being honest.
 
 At this point I can't remember my exact motivations for wanting to make a jet engine. When people ask me what I want to make a jet engine I respond with, “Why wouldn't you want to make a jet engine”
 
@@ -30,7 +29,7 @@ The jet that I have been building is based on the [Lockwood-Hiller Design](https
 
 The size of the jet is not that much of an issue, I have seen people make much smaller ones that are mounted onto RC planes and even some made out of soup cans.
 
-![](img/JetDiaggram.webp)
+![Diagram of a pulse jet pulsing](img/JetDiaggram.webp)
 
 ## Who In Their Right Mind Would Do This?   
 
@@ -48,7 +47,7 @@ I still don't want this thing to become a bomb, so I will create a separate post
 
 I have linked other websites where you can find blueprints but I will include the ones I made here. They aren't very pretty but planning things out is always a good step to take.
 
-![](https://lh5.googleusercontent.com/EtW66sy2Xn7wL1SDZl8mUi3iX05sDQrksMgWLnPY4hV3wafb5MbuvjZSr6omTfb01KGd0CBubIyaoKvF-vOAKDEYZU_hCHpjsaLLBBWUbV2yrFk6rpz8I-Xp3ncRErEM39pFfIIcq6WvDjBVqgqsfZU)
+![My crappy blueprints I made on isometric graph paper](img/Drawlings.webp)
 
 My crappy blueprints I made on isometric graph paper.
 
@@ -84,20 +83,19 @@ Here is my minimum number of tools required to assemble the frame:
 
 Here is the part you have all been waiting for, assembly.  I wanted to start off with assembling the combustion chamber as it was the easiest to weld. I slipped the reducers into either side of the combustion chamber and used 3/16 filler rod wire as a spacer to make sure it was centered. After making sure everything was level and centered I tack welded the two together. When tack welding the reducer the the combustion chamber I made sure **the tack welds are directly across from one another**. This is very important, otherwise when you go to weld the two together one side will pull on the other making the reducer crooked.
 
-
-|                              |                                       |
-| ---------------------------- | ------------------------------------- |
-| ![](img/ReducerAndPipe.webp) | ![](img/TackWeldLocationDiagram.webp) |
+|                                                      |                                                                                     |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| ![Reducer fitted into pipe](img/ReducerAndPipe.webp) | ![All the tack welds are across from one another](img/TackWeldLocationDiagram.webp) |
 
 At the time, I wasn't the best pipe welder so my welds did not come out perfect. I will probably go back and redo most of my welds on this project because they are a bit messy. Anyway after welding both reducers onto the combustion chamber you should have something that looks like this
 
-![](img/Weld.webp)
+![Reducer welded to pipe](img/Weld.webp)
 
 Now that this part of the combustion chamber is complete I moved onto the “macaroni piece” made of the two 90 degree elbows. I probably could have found one piece that just loops around instead of welding two 90 degree elbows but as long as the jet engine loops around it should work as intended.
 
 I then welded the elbow piece onto one one side of the combustion chamber and I ended up with something that looked like this.
 
-![](img/JetNoCone.webp)
+![Pluse jet frame missing the cone](img/JetNoCone.webp)
 
 Then again my welds here are the best but I fixed them later on.
 
