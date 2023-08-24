@@ -5,7 +5,7 @@ draft: true
 ShowToc: true
 author: Clayton Easley
 tags: ["computers", "DIY", "IoT"]
-categories: ["Projects"]
+categories: ["Computer Stuff"]
 cover:
     image: img/smart_home_cover.jpg
 ---

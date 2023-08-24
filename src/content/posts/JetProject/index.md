@@ -1,5 +1,5 @@
 ---
-title: "Making a Valveless pulsejet"
+title: "Making a Valveless pulsejet part 1"
 date: 2022-10-01T17:33:07-04:00
 draft: true
 ShowToc: true
@@ -8,15 +8,17 @@ categories: ["Projects"]
 tags: ["engineering", "welding"]
 description: "During my highschool Dual enrollment welding program I decided to start working on building a pulse jet! Here is how I did it."
 weight: 2
+# page: 1
 cover:
-  image: /img/Jet/MakingJet.webp
+  image: img/MakingJet.webp
 ---
 
 # Making a Valveless pulsejet
 
 Hello
 
-Haven't posted in a while and have been a bit busy with school.  I have decided to update you with one of my long and difficult projects. A project that might as well kill me if I am not careful enough. Yes, you read the title correctly, I am attempting to build a Valveless pulsejet. I have been working on this project for almost two years!
+Haven't posted in a while and have been a bit busy with school.  I have decided to update you with one of my long and difficult projects. A project that might as well kill me if I am not careful enough. Yes, you read the title correctly, I am attempting to build a Valveless pulsejet. I have been working on this project for almost two years! Due to school and work finding the time to put this article together and post it took a significant amount of time, and well… and courage if i'm being honest. 
+
 
 At this point I can't remember my exact motivations for wanting to make a jet engine. When people ask me what I want to make a jet engine I respond with, “Why wouldn't you want to make a jet engine”
 
@@ -35,6 +37,8 @@ The size of the jet is not that much of an issue, I have seen people make much s
 Only crazy people of course, and I happen to fall into that bucket. I have spent little over a year just honing in the skill to weld together the body of the engine. I don't really know why I felt the need to do this? But I did.
 
 That being said If you decide to use this site as instructions and obliterate yourself into a million tiny pieces, don't make me responsible. This is a risk I am taking for your entertainment.
+
+Not to mention, whether or not this thing will end up working is another story. If all else fails, at least I learned something.
 
 ## Planning and Designing 
 
@@ -78,28 +82,28 @@ Here is my minimum number of tools required to assemble the frame:
 
 ## Welding and Assembly
 
-Here is the part you have all been waiting for, assembly.  I wanted to start off with assembling the combustion chamber as it was the easiest to weld. I slipped the reducers into either side of the combustion chamber and used 3/16 filler rod wire as a spacer to make sure it was centered. After making sure everything was level and centered I tack welded the two together. When tack welding the reducer the the combustion chamber I made sure **the tack welds are directly across from one another**. This is very important, otherwise when you go to weld the two together one side will pull on the other making the reducer crooked. 
+Here is the part you have all been waiting for, assembly.  I wanted to start off with assembling the combustion chamber as it was the easiest to weld. I slipped the reducers into either side of the combustion chamber and used 3/16 filler rod wire as a spacer to make sure it was centered. After making sure everything was level and centered I tack welded the two together. When tack welding the reducer the the combustion chamber I made sure **the tack welds are directly across from one another**. This is very important, otherwise when you go to weld the two together one side will pull on the other making the reducer crooked.
 
 
-
-{{< figure src="https://lh6.googleusercontent.com/86yuYD_40y7kAa1OGCG8FsabkBgfP_YrqPi-tvFcAMujTa0v1KwXKwz0RZ4n-mIvimP_65VyPPPcsOUdLbaQG9MZGvqOwIlA94DGemsEu4z4wS1EXN_LWZZn9uegDEqX6GzITk9RoIn_KURZKqhKiKA" alt="3/16 filler rod wire as spacer" >}}
-  
-{{< figure src=https://lh4.googleusercontent.com/UtObXJf66lEKnke8n4CzgIK9tkoQWvgHUonO98BotXLjRnk-R49QmYQ0fXNY76qBcGRGioaxEVsMvdSqshbHAd7CZ-TOmXzPmt-GW7vSmo0Dw2RFkt1CEJpxJLPm-vTlZPKIjj7xi0u5PEGjVvknftI >}}
-
-
+|                              |                                       |
+| ---------------------------- | ------------------------------------- |
+| ![](img/ReducerAndPipe.webp) | ![](img/TackWeldLocationDiagram.webp) |
 
 At the time, I wasn't the best pipe welder so my welds did not come out perfect. I will probably go back and redo most of my welds on this project because they are a bit messy. Anyway after welding both reducers onto the combustion chamber you should have something that looks like this
 
-![](https://lh3.googleusercontent.com/sYCtaqUCJhyqhZsYyHamLo-lwWX-vKcr00Pc59a1taJrLx--W8VstiCxQF2VlvJbowcg9b2wUP-a8bDeByjxeBzgpzjN5vxnIPRNOBsp0Riiy4QbWgiD93mxGyCvUDoDLmchVh1ZnKR3NYHtdd7fY1Q)
+![](img/Weld.webp)
 
 Now that this part of the combustion chamber is complete I moved onto the “macaroni piece” made of the two 90 degree elbows. I probably could have found one piece that just loops around instead of welding two 90 degree elbows but as long as the jet engine loops around it should work as intended.
 
 I then welded the elbow piece onto one one side of the combustion chamber and I ended up with something that looked like this.
 
-![](https://lh6.googleusercontent.com/DhoMGUw32eoi2Tp5WeK2p7PcUQCRd5WB3M636fa5scDhRxNPVJPElJypnppG8lb4WKZDYt8_L_ix1sSfqlfGcR3Fj0NOmmnIAMQAbS9ULIl0LmflUj_3dDkqqfZVJBMnQH9WLHnG0nh2BXmriGn3U34)
+![](img/JetNoCone.webp)
 
 Then again my welds here are the best but I fixed them later on.
 
 ### Making the cone
 
-The next part of his project was the most challenging part, making the cone. This was much easier said than done and delayed my progress by many months.
+The next part of his project was the most challenging part, making the cone. This was much easier said than done and delayed my progress by many months. This post itself I believe is long enough, I will explain the brutal process I went through to make a cone out of steel in a later post.
+
+<!-- https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/ -->
+<!-- https://www.ijera.com/papers/Vol4_issue11/Part%20-%205/K0411055659.pdf -->

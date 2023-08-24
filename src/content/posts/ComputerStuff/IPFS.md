@@ -6,7 +6,7 @@ ShowToc: true
 author: Clayton Easley
 tags: 
 weight: 3
-categories:
+categories: ["Computer Stuff"]
 cover:
     image: img/IPFS1.png
 ---

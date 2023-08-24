@@ -11,12 +11,11 @@ params:
 
   Description: "Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming, photography, electronics, art, welding, robots, and machine learning."
 
-
   defaultTheme: dark
   TocSide: left
   external: true
+  
   #search
-
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -38,6 +37,7 @@ params:
     - name: linkedin
       url: https://www.linkedin.com/in/clayton-easley/
 
+
   cover:
     linkFullImages: true
   
@@ -45,6 +45,10 @@ params:
     URL: https://github.com/clayton14/MySite2.0
     Text: Edit 
    
+
+  # multipage:
+  #   displayPaginator: false
+  #   displayPrevAndNext: true
 
   ShowBreadCrumbs: true
   ShowReadingTime: true
@@ -69,3 +73,8 @@ menu:
     name: Tags
     url: /tags/
     weight: 30
+
+
+# taxonomies:
+#   category: ComputerStuff
+#   categort: JetProject
