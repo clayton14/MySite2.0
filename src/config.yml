@@ -39,7 +39,7 @@ params:
 
 
   cover:
-    linkFullImages: true
+    linkFullImages: false
   
   editPost:
     URL: https://github.com/clayton14/MySite2.0
