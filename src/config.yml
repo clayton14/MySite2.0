@@ -8,9 +8,8 @@ author:
   bio: this is where the bio is
 
 params:
-
+  env: production
   Description: "Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming, photography, electronics, art, welding, robots, and machine learning."
-
   defaultTheme: dark
   TocSide: left
   external: true
@@ -25,7 +24,6 @@ params:
     minMatchCharLength: 0
   #EnableInstantClick: true
 
-
   homeInfoParams:
     Title: "Welcome to Clayton's Site"
     Content: "Welcome to my blog! This is where I document all my projects and Ideas to share with you. If you like the content consider sharing with a friend 😃."
@@ -37,7 +35,6 @@ params:
     - name: linkedin
       url: https://www.linkedin.com/in/clayton-easley/
 
-
   cover:
     linkFullImages: false
   
@@ -45,7 +42,6 @@ params:
     URL: https://github.com/clayton14/MySite2.0
     Text: Edit 
    
-
   # multipage:
   #   displayPaginator: false
   #   displayPrevAndNext: true
@@ -73,7 +69,6 @@ menu:
     name: Tags
     url: /tags/
     weight: 30
-
 
 # taxonomies:
 #   category: ComputerStuff
