@@ -9,11 +9,12 @@ categories: ["Ideas"]
 description: Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming, photography, electronics, art, welding, robots, and machine learning.
 weight: 1
 cover:
-    image: img/Welcome.webp
+    image: /img/Riz_1.webp
 ---
 
 
 ## Who is Clayton Easley ? 
+<!-- {{< figure src="/img/clayton.jpeg" style="float:left" title="this is what I look like">}} -->
 Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming, photography, electronics, art, welding,  robots, and machine learning. As time progresses this list might change because at the time of writing I am still in highschool and still don't know what to do with my life. For those who managed to stumble on this small corner of the internet I hope you find this site of some use and enjoyment. 
 
 
