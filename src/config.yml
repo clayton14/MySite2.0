@@ -26,7 +26,11 @@ params:
 
   homeInfoParams:
     Title: "Welcome to Clayton's Site"
-    Content: "Welcome to my blog! This is where I document all my projects and Ideas to share with you. If you like the content consider sharing with a friend 😃."
+    Content: 
+      "Welcome to my blog! This is where I document all my projects and Ideas to share with you. 
+      If you like the content consider sharing with a friend 😃.\n\n
+      If you want to contact to me you can send me an email at askme@claytoneasley.org \n\nor click the mail button below"
+      
   socialIcons:
     - name: github
       url: https://github.com/clayton14
@@ -34,6 +38,8 @@ params:
       url: https://www.instagram.com/claytoneasley77/
     - name: linkedin
       url: https://www.linkedin.com/in/clayton-easley/
+    - name: email
+      url: mailto:askme@claytoneasley.org
 
   cover:
     linkFullImages: false
