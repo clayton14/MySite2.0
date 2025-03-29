@@ -10,6 +10,12 @@ author:
 
 googleAnalytics: G-M50KSRMNSP
 
+enableRobotsTXT: true
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
 params:
   env: production
   Description: "Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming, photography, electronics, art, welding, robots, and machine learning."
@@ -18,6 +24,7 @@ params:
   external: true
   
   #search
+  # TODO: fix search
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -41,8 +48,8 @@ params:
       url: https://www.instagram.com/claytoneasley77/
     - name: linkedin
       url: https://www.linkedin.com/in/clayton-easley/
-    - name: email
-      url: mailto:askme@claytoneasley.org
+    # - name: email
+    #   url: mailto:askme@claytoneasley.org
 
   cover:
     linkFullImages: false
