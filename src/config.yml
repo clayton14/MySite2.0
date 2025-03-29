@@ -36,7 +36,7 @@ params:
   homeInfoParams:
     Title: "Welcome to Clayton's Site"
     Content: 
-      "Welcome to my blog! This is where I document all my projects and Ideas to share with you. 
+      "Welcome to my blog! This is where I (try) to document all my projects and Ideas to share with the public. 
       If you like the content consider sharing with a friend 😃.\n\n"
       
   socialIcons:
@@ -54,7 +54,7 @@ params:
   
   editPost:
     URL: https://github.com/clayton14/MySite2.0
-    Text: Edit 
+    Text: Edit This Page
    
   # multipage:
   #   displayPaginator: false
