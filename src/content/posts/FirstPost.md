@@ -10,6 +10,7 @@ description: Hi my name is Clayton. I am a hobbyist interested in a plethora of 
 weight: 1
 cover:
     image: /img/Riz_1.webp
+    type: post
 ---
 
 
