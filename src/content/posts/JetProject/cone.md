@@ -2,6 +2,7 @@
 title: "Rooling a cone made of steel"
 date: 2022-10-01T17:33:07-04:00
 draft: true
+searchHidden: true
 ShowToc: true
 author: Clayton Easley
 categories: ["Projects"]
