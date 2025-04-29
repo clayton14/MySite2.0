@@ -33,7 +33,12 @@ params:
   TocSide: left
   external: true
   
-  #EnableInstantClick: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+  keywords: [Blog, Portfolio, Engineering, Computers, Codeing]
 
   homeInfoParams:
     Title: "Welcome to Clayton's Site"
@@ -60,28 +65,21 @@ params:
     Text: "Suggest Changes"
     appendFilePath: true 
    
-  # multipage:
-  #   displayPaginator: false
-  #   displayPrevAndNext: true
 
-  ShowBreadCrumbs: true
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
 
 menu:
   main:
   - identifier: Search
-    name: Search
+    name: Search 
     weight: 5
     url: /search/
   - identifier: categories
     name: Categories
     url: /categories/
     weight: 10
-  - identifier: posts
-    name: All Posts
-    url: /posts/
+  - identifier: computing
+    name: Computing
+    url: /posts/computing 
     weight: 20
   - identifier: tags
     name: Tags
