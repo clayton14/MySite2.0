@@ -9,13 +9,10 @@ tags: ["engineering", "welding"]
 description: "During my highschool Dual enrollment welding program I decided to start working on building a pulse jet! Here is how I did it."
 weight: 2
 # page: 1
-cover:
-  image: img/MakingJet.webp
+
 ---
 
-# Making a Valveless pulsejet
-
-Hello
+{{< figure src="img/MakingJet.webp">}}
 
 Haven't posted in a while and have been a bit busy with school.  I have decided to update you with one of my long and difficult projects. A project that might as well kill me if I am not careful enough. Yes, you read the title correctly, I am attempting to build a Valveless pulsejet. I have been working on this project for almost two years! Due to school and work finding the time to put this article together and post it took a significant amount of time, and well… and courage if i'm being honest.
 
