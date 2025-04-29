@@ -10,6 +10,9 @@ description: Hi my name is Clayton. I am a hobbyist interested in a plethora of 
 weight: 1
 cover:
     
+editPost:
+    URL: https://github.com/clayton14/MySite2.0
+    Text: "Suggest Changes"
 ---
 
 

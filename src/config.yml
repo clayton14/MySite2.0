@@ -71,7 +71,7 @@ menu:
   main:
   - identifier: Search
     name: Search 
-    weight: 5
+    weight: 20
     url: /search/
   - identifier: categories
     name: Categories
@@ -79,13 +79,6 @@ menu:
     weight: 10
   - identifier: computing
     name: Computing
-    url: /posts/computing 
-    weight: 20
-  - identifier: tags
-    name: Tags
-    url: /tags/
-    weight: 30
+    url: /posts/comp 
+    weight: 5
 
-# taxonomies:
-#   category: ComputerStuff
-#   categort: JetProject
