@@ -4,11 +4,27 @@ title: Clayton Easley
 theme: PaperModX
 author:
   name: Clayton Easley
-  headline: welcome to my blog
-  bio: this is where the bio is
 
 
 googleAnalytics: G-M50KSRMNSP
+
+###Search###
+
+outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON # is necessary
+
+# fuseOpts:
+#   isCaseSensitive: false
+#   shouldSort: true
+#   location: 0
+#   distance: 1000
+#   threshold: 0.4
+#   minMatchCharLength: 0
+
+###Search###
 
 params:
   env: production
@@ -17,14 +33,6 @@ params:
   TocSide: left
   external: true
   
-  #search
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
   #EnableInstantClick: true
 
   homeInfoParams:
@@ -49,7 +57,8 @@ params:
   
   editPost:
     URL: https://github.com/clayton14/MySite2.0
-    Text: Edit 
+    Text: "Suggest Changes"
+    appendFilePath: true 
    
   # multipage:
   #   displayPaginator: false
@@ -71,7 +80,7 @@ menu:
     url: /categories/
     weight: 10
   - identifier: posts
-    name: Posts
+    name: All Posts
     url: /posts/
     weight: 20
   - identifier: tags
