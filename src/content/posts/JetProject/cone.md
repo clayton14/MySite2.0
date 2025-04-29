@@ -1,14 +1,14 @@
 ---
-title: "Rooling a cone made of steel"
+title: "The Cone"
 date: 2022-10-01T17:33:07-04:00
-draft: true
+draft: false
 searchHidden: true
 ShowToc: true
 author: Clayton Easley
 categories: ["Projects"]
 tags: ["engineering", "welding"]
-description: "During my highschool Dual enrollment welding program I decided to start working on building a pulse jet! Here is how I did it."
-weight:
+description: "Manufacturing a stainless steel cone for the valveless pulsejet"
+weight: 5
 page: 2
 cover:
 #   image: img/MakingJet.webp

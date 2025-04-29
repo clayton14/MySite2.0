@@ -1,5 +1,5 @@
 ---
-title: "Hi There"
+title: "Introduction"
 date: 2022-09-30T21:13:46-04:00
 draft: false
 ShowToc: true
@@ -9,7 +9,8 @@ categories: ["Ideas"]
 description: Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming, photography, electronics, art, welding, robots, and machine learning.
 weight: 1
 cover:
-    
+    image: 
+
 editPost:
     URL: https://github.com/clayton14/MySite2.0
     Text: "Suggest Changes"
