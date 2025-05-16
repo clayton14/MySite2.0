@@ -1,5 +1,5 @@
 ---
-title: "The Cone"
+title: "Making the Cone"
 date: 2022-10-01T17:33:07-04:00
 draft: false
 searchHidden: true

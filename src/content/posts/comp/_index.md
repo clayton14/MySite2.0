@@ -10,7 +10,6 @@ categories: ["Computing"]
 
 paginate: 5
 
-
 editPost:
     URL: https://github.com/clayton14/MySite2.0/posts
     Text: "Suggest Changes"
