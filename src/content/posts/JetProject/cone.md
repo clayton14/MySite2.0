@@ -15,4 +15,4 @@ cover:
 ---
 
 
-Here is where I talk about making the cone
+I would like to come up with a visual way of explaining how the cone was made, as I lost the original pictures. 

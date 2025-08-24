@@ -93,7 +93,6 @@ Now that this part of the combustion chamber is complete I moved onto the “mac
 
 I then welded the elbow piece onto one one side of the combustion chamber and I ended up with something that looked like this.
 
-![Pluse jet frame missing the cone](img/JetNoCone.webp)
 
 {{< figure src="/jet_img/JetNoCone.webp" alt="Pluse jet frame missing the cone" >}}
 

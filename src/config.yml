@@ -71,14 +71,18 @@ menu:
   main:
   - identifier: Search
     name: Search 
-    weight: 20
+    weight: 5
     url: /search/
   - identifier: categories
-    name: Categories
+    name: All Categories
     url: /categories/
-    weight: 10
+    weight: 20
   - identifier: computing
     name: Computing
     url: /posts/comp 
-    weight: 5
+    weight: 15
+  # - identifier: engnieering
+  #   name: Engnieering
+  #   url: /posts/engnieering
+  #   weight: 15
 

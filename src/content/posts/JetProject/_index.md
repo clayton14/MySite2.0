@@ -16,4 +16,5 @@ Haven't posted in a while and have been a bit busy with school.  I have decided
 
 At this point I can't remember my exact motivations for wanting to make a jet engine. When people ask me what I want to make a jet engine I respond with, “Why wouldn't you want to make a jet engine”
 
+Unfortunately this project will have to come to an end. When I was taking welding in high school it was a great project that allowed me to learn both metal fabrication and pipe welding. 
 
