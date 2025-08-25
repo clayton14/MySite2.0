@@ -1,7 +1,7 @@
 ---
 title: "Site Updates and Future Planing"
 date: 2025-04-29T16:49:52-04:00
-draft: true
+draft: false
 searchHidden: true
 ShowToc: true
 author: Clayton Easley
