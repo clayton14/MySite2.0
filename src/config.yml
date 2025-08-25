@@ -77,9 +77,9 @@ menu:
     name: All Categories
     url: /categories/
     weight: 20
-  - identifier: computing
-    name: Computing
-    url: /posts/comp 
+  - identifier: projects
+    name: Projects
+    url: /posts/projects 
     weight: 15
   # - identifier: engnieering
   #   name: Engnieering
