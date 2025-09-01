@@ -8,6 +8,10 @@ author:
 
 googleAnalytics: G-M50KSRMNSP
 
+
+
+
+
 ###Search###
 
 outputs:
@@ -16,13 +20,7 @@ outputs:
       - RSS
       - JSON # is necessary
 
-# fuseOpts:
-#   isCaseSensitive: false
-#   shouldSort: true
-#   location: 0
-#   distance: 1000
-#   threshold: 0.4
-#   minMatchCharLength: 0
+
 
 ###Search###
 
@@ -38,12 +36,19 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
 
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowWordCount: true
+  EnableImageZoom: true
+  ShowCodeCopyButtons: true
+
+
   keywords: [Blog, Portfolio, Engineering, Computers, Codeing]
 
   homeInfoParams:
-    Title: "Welcome to my site"
+    Title: "Welcome to my Tech Journal"
     Content: 
-      "Welcome to my blog! This is where I document all my projects and Ideas to share with you. 
+      "This is where I document all my projects and Ideas to share with you. 
       If you like the content consider sharing with a friend 😃.\n\n
       If you want to contact to me you can send me an email at askme@claytoneasley.org \n\nor click the mail button below"
       
@@ -80,9 +85,9 @@ menu:
   - identifier: projects
     name: Projects
     url: /posts/myprojects/
+    weight: 10
+  - identifier: notes
+    name: Notes
+    url: /posts/notes
     weight: 15
-  # - identifier: engnieering
-  #   name: Engnieering
-  #   url: /posts/engnieering
-  #   weight: 15
 

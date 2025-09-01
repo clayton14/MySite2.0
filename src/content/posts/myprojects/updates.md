@@ -27,6 +27,6 @@ The last time I have put any content on this website was back when I was in high
 I am in the works of changing how the backend of my site works as well as changing some things I don't like about the current theme I am using. Until then stay posted.
 
 ### Remark42
-Remark 42 is a lightweight open source committing engine that I can embed into different posts. This can allow people to leave feedback and discuss whatever project I am currently working on. It also gives people the option to correct me, which I encourage,  without having to use git and or leave a pull request. 
+[Remark 42](https://remark42.com/) is a lightweight open source committing engine that I can embed into different posts. This can allow people to leave feedback and discuss whatever project I am currently working on. It also gives people the option to correct me, which I encourage,  without having to use git and or leave a pull request. 
 
 After I take care of some backend maintenance I hope to add remark 42 to my site.
