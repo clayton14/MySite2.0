@@ -9,7 +9,7 @@ tags:
     - Fixes
     - References
 weight: 1
-categories: ["Computing", "Engineering", "Electronics"]
+categories: ["Software", "Engineering", "Electronics"]
 description: 
 paginate: 10
 
