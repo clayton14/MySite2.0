@@ -19,6 +19,7 @@ editPost:
 ---
  
 
- As I, and many other engineers, dive into their projects, bugs and other mishaps will inevitably come up.  Whether it's related to software or hardware, I would like to dedicate this page to the small issues I have encountered and how I went about resolving them. 
+As I, and many other engineers, dive into their projects, bugs and other mishaps will inevitably come up. Whether it’s related to software or hardware, this page is dedicated to the small issues I have encountered and how I went about resolving them. This page also serves as my own personal reference to whatever I am currently learning and think is worth sharing.
 
 You might find answers to your questions here, or at least a useful hint in the right direction.
+

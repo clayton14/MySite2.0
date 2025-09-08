@@ -30,17 +30,28 @@ But as my assignments became more complex they required multiple `header` and `i
 I would like to break down a simple CMakeLists.txt file for your project and for my own reference. CMake has many features that I will not be covering here so you many want to [refer to the CMake documentation](https://cmake.org/documentation/)
 
 
-### Installation
+## Installation
 
-Okay, I am going to be completely honest with myself here. I have NO IDEA how to write C or C++ code on Windows™ without installing 10-20 GB of dependencies. 
+I would recommend following the [official CMake installation](https://cmake.org/download/) guide as this may become out of date!
 
-This is why I prefer to use Unix based systems or &lt;Windows Subsystem for Linux>
+{{< details summary="Click for Linux instructions" >}}
 
-If you are on a Unix based system then you could simply use your respective package manager to install the following.
+If you are on a unix/linx system you can install CMake using your systems package manager.
+
+**For Example:**
 
 ~~~
-sudo apt install make cmake git
+sudo apt install make cmake
 ~~~
+
+{{< /details >}}
+
+
+{{< details summary="Click for Winows instructions" >}}
+
+Windows Instructions go here!!!
+
+{{< /details >}}
 
 
 ### Project Structure
