@@ -8,10 +8,6 @@ author:
 
 googleAnalytics: G-M50KSRMNSP
 
-
-
-
-
 ###Search###
 
 outputs:
@@ -19,8 +15,6 @@ outputs:
       - HTML
       - RSS
       - JSON # is necessary
-
-
 
 ###Search###
 
@@ -30,6 +24,30 @@ params:
   defaultTheme: dark
   TocSide: left
   external: true
+
+  profileMode:
+        enabled: true
+        title: "Clayton Easley" # optional default will be site title
+        subtitle: "Welcome to my site\n A journal of projects, thoughts, and life experances!"
+        # imageUrl: "<image link>" # optional
+        # imageTitle: "<title of image as alt>" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+        - identifier: About Me
+          name: About Me
+          url: /posts/about
+        - identifier: projects
+          name: Projects
+          url: /posts/myprojects/
+        - identifier: Notes
+          name: Notes
+          url: /posts/notes
+
+
+
+  # author:
+  #   name: Clayton Easley
   
   ShowBreadCrumbs: true
   ShowReadingTime: true
@@ -45,22 +63,22 @@ params:
 
   keywords: [Blog, Portfolio, Engineering, Computers, Codeing]
 
-  homeInfoParams:
-    Title: "Welcome to my Tech Journal"
-    Content: 
-      "This is where I document all my projects and Ideas to share with you. 
-      If you like the content consider sharing with a friend 😃.\n\n
-      If you want to contact to me you can send me an email at askme@claytoneasley.org \n\nor click the mail button below"
+  # homeInfoParams:
+  #   Title: "Welcome to my Tech Journal"
+  #   Content: 
+  #     "This is where I document all my projects and Ideas to share with you. 
+  #     If you like the content consider sharing with a friend 😃.\n\n
+  #     If you want to contact to me you can send me an email at askme@claytoneasley.org \n\nor click the mail button below"
       
   socialIcons:
     - name: github
       url: https://github.com/clayton14
-    - name: instagram
-      url: https://www.instagram.com/claytoneasley77/
+    # - name: instagram
+    #   url: https://www.instagram.com/claytoneasley77/
     - name: linkedin
       url: https://www.linkedin.com/in/clayton-easley/
-    - name: email
-      url: mailto:askme@claytoneasley.org
+    # - name: email
+    #   url: mailto:askme@claytoneasley.org
 
   cover:
     linkFullImages: false
