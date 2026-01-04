@@ -54,7 +54,6 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
 
-  ShowShareButtons: true
   ShowReadingTime: true
   ShowWordCount: true
   EnableImageZoom: true
