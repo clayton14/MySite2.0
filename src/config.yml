@@ -1,4 +1,4 @@
-baseURL: https://claytoneasley.org
+baseURL: "https://claytoneasley.org"
 languageCode: en-us
 title: Clayton Easley
 theme: PaperModX
@@ -42,7 +42,7 @@ params:
           url: /posts/myprojects/
         - identifier: Notes
           name: Notes
-          url: /posts/notes
+          url: /posts/notes/
 
 
 
