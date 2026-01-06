@@ -1,6 +1,6 @@
 ---
 Title: Tech Notes - References and Fixes
-draft: true
+draft: false
 ShowToc: false
 date: "2025-08-31"
 searchHidden: true
