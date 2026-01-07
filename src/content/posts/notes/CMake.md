@@ -8,7 +8,7 @@ author: Clayton Easley
 tags: 
     - References
     - CMake
-description: 
+description: "simple CMake project template"
 categories: ["Software"]
 cover:
     image:
