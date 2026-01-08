@@ -18,17 +18,28 @@ outputs:
 
 ###Search###
 
+# allow html to render in md files
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   env: production
-  Description: "Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming, photography, electronics, art, welding, robots, and machine learning."
+  Description: "Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming,  electronics, art, welding, robots, and machine learning."
   defaultTheme: dark
   TocSide: left
   external: true
 
+  # security:
+  #   enableInlineShortcodes: true
+
   profileMode:
         enabled: true
         title: "Clayton Easley" # optional default will be site title
-        subtitle: "Welcome to my site\n A journal of projects, thoughts, and life experances!"
+        subtitle: >
+          Welcome to my site A journal of projects, thoughts, and life experances!
+          Some projects are still in porgress, excuese the underdeveloped posts. 
         # imageUrl: "<image link>" # optional
         # imageTitle: "<title of image as alt>" # optional
         imageWidth: 120 # custom size
@@ -45,9 +56,7 @@ params:
           url: /posts/notes/
 
 
-
-  # author:
-  #   name: Clayton Easley
+  contentDir: content
   
   ShowBreadCrumbs: true
   ShowShareButtons: true
