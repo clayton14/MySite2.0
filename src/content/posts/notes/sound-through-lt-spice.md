@@ -13,8 +13,7 @@ tags:
     - filters
 description: Notes on how to send .wav files through simulated analog circuits in LTspice
 categories: ["Electronics", "Simulation"]
-cover:
-    image:
+
 
 editPost:
     URL: https://github.com/clayton14/MySite2.0
@@ -23,8 +22,14 @@ editPost:
 
 Wheather your a student, proffisional, or hobbiest, you will eventually come across [SPICE Software](https://en.wikipedia.org/wiki/SPICE) when desigining electronics projects. SPICE software, such as [LTspice](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html), can be used to simulate your analog and digital designs without having to bust out a breadboard or soldering iron.
 
-One feature I have found incredibly usefull when desiging analog audio circuits like <link to guitar pedel project> is LTspices ability to process `.wav` files as a voltage input.    
+One feature I have found incredibly usefull when desiging analog audio circuits like <link to guitar pedel project> is LTspices ability to process `.wav` files as a voltage input and output in your circuit. 
 
+
+{{< audio src="/notes/pluck.wav" >}}
+
+<!-- !audio[pluck](/notes/pluck.wav) -->
+
+<audio controls src="/notes/pluck.wav"></audio>
 
 - Breif overview of Lowpass filter and AC circuts
 - Make audio file in Aucicty (.wav)
