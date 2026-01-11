@@ -86,7 +86,7 @@ In my case my directive looks like the flowing but you may need to change the du
 
 ### output
 
-The next step is going to be to add the output newtork by pressing KEY on your keyboard. Keep note of the name of this node as it acts as a varable for the output data. In the example image this is **V_Out**
+The next step is going to be to add the output newtork lable by pressing `n` on your keyboard. Keep note of the name of this node as it acts as a varable for the output data. In the example image this is **V_Out**.
 
 Once you have your circuits input, output and simulation settings configured we need to use the [.wave](https://ltwiki.org) directive to output your audio file the circuit.
 
@@ -107,7 +107,7 @@ Once you have your circuits input, output and simulation settings configured we 
 | {{< figure src="/notes/peak_fft.webp">}} | {{< figure src="/notes/peak_out_fft.webp">}}  
 
 
-https://www.digikey.com/en/maker/tutorials/2024how-to-simulate-an-rc-low-pass-filter-in-ltspice-and-analyze-frequency-response
+## References
 
 https://www.allaboutcircuits.com/technical-articles/understanding-transfer-functions-for-low-pass-filters/
 
