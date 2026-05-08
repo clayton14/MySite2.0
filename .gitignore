@@ -2,4 +2,4 @@
 src/public/
 update.sh
 .vscode
-src/resources/_gen/
+src/resources/_gen
