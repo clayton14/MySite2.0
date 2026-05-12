@@ -17,6 +17,11 @@ editPost:
 ---
 
 
+
+https://samplefocus.com/samples/acoustic-guitar-pluck
+
+
+
 # Fuzz Face design
 
 
