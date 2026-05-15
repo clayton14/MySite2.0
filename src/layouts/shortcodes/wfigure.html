@@ -1,0 +1,16 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" -}}
+{{- $width := .Get "width" | default "100%" -}}
+{{- $align := .Get "align" | default "center" -}}
+
+<figure class="wfig fig-{{ $align }}" style="width: {{ $width }};">
+    {{- if .Get "link" -}}
+        <a href="{{ .Get "link" }}"><img src="{{ $src | absURL }}" alt="{{ $alt }}"></a>
+    {{- else -}}
+        <img src="{{ $src | absURL }}" alt="{{ $alt }}">
+    {{- end -}}
+    {{- if $caption -}}
+        <figcaption>{{ $caption | markdownify }}</figcaption>
+    {{- end -}}
+</figure>

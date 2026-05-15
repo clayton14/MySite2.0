@@ -1,0 +1,39 @@
+.wfig{
+  display: relative;
+}
+
+
+.fig-left{
+  float: left;
+  margin: 0 1.5rem 1rem 0;
+}
+
+.fig-right{
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+}
+
+.fig-center {
+    display: flex;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+
+.image-gallery figure {
+    flex: 1;
+    min-width: 250px;  
+    margin: 0;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+}
