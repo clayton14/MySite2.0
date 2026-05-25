@@ -67,7 +67,9 @@ When I was was choosing a camera module I noticed that almots all the image seno
 
 *bottleneck forshadows*
 
-Rolling shutter cameras capture a frame row-by-row which when acclerating can cause distortion, which might make it harder for the pilot to operate. 
+Cameras with a rolling shutter capture an image one row of pixels at a time. 
+
+which when acclerating can cause distortion, which might make it harder for the pilot to operate. 
 
 
 ## Data and Power
@@ -77,7 +79,17 @@ The first thing that comes to mind when I hear *power* and *data* is [Power over
 Each camera then only needs one cable for both power and data. 
 The raspberrypi zero dose not have native in supprt for Ethernet or PoE, but this be sloved using a hat.  
 
-### Waterproof Enclsure
+{{< details summary="camera network toplogy" >}}
+
+Put image here
+
+{{< /details >}}
+
+Knowing there I have to account for a total of three cameras I did some rough bandwidth calcuations.
+
+$$ y=mx+b $$
+
+### Waterproof Enclouser
 
 {{< details summary="See Full Bill of Materials" >}}
 
@@ -108,8 +120,6 @@ Students from prevoius compitions used a waterproof project box with a clear lid
 The next task was getting power and data transfer to each of the three pi's.
 
 
-
-
 Now, I do have to preface that this idea was inspired by another robotics teams design, but with major changes. I unforunatlly do not remember what team I had spoken to about there design, but I do remember that they were also using a PI zero in there design.
 
 # Software
@@ -122,17 +132,6 @@ Now, I do have to preface that this idea was inspired by another robotics teams 
 
 Before I go over the design and implemtation it's important to understand the scope of the project, and the constrantes both I, and the team faced. 
 
-### Sechduling the Ordering of Components
-
-Now, I can't be the only person to have experanced this, and prehaps may be the reson you are reading this insted of being producative. 
-
-Soo... you just finsised the design for a new thing-a-ma-bob, and you just sent your BOM to whatever burracrat sits above you. This is because your BOM **must be approved** by said beurreacat. Now, for some reson, this **approval** takes 10 to 15 business days to review, before anything is even sent to a manafacture. This does not take into account for the time it takes for get shipped to you. 
-
-This was a major issue for everyone on the team, simply due to the fact that we were a club at our universitie were restricted by the sechduling of *club orders* which was at most bi-weeekely. The university would collect all clubs orders and send them out as one batch order. 
-Not only did this waste a lot of time but it made hardware revisions  
-
-ROS integration 
-Time Constrantes
 
 
 
