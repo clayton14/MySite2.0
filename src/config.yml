@@ -1,14 +1,22 @@
+### Base Site Prams ###
 baseURL: "https://claytoneasley.org"
 languageCode: en-us
 title: Clayton Easley
 theme: PaperModX
 author:
   name: Clayton Easley
-
+  
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pygmentsUseClasses: true
 
 googleAnalytics: G-M50KSRMNSP
 
-###Search###
+### Base Site Prams ###
+
+### Search ###
 
 outputs:
     home:
@@ -26,7 +34,7 @@ markup:
 
 params:
   env: production
-  Description: "Hi my name is Clayton. I am a hobbyist interested in a plethora of things including but not limited to, programming,  electronics, art, welding, robots, and machine learning."
+  Description: "Hi my name is Clayton. I am a student at the University of Massachusetts Lowell Studying Computer Engineering. interested in a plethora of things including but not limited to, programming,  electronics, art, welding, robots, and machine learning."
   defaultTheme: dark
   TocSide: left
   external: true
@@ -36,10 +44,16 @@ params:
 
   profileMode:
         enabled: true
-        title: "Clayton Easley" # optional default will be site title
+        title: |
+           Hello and Welcome !
+
+           I'm Clayton Easley a Computer Engineer 
+          
         subtitle: >
-          Welcome to my site A journal of projects, thoughts, and life experances!
-          Some projects are still in porgress, excuese the underdeveloped posts. 
+          Hi, my name is Clayton. I am currently a student at the University of Massachusetts Lowell! I created this site to journal my projects, ideas, and life experiences, and it sits somewhere between a blog and a Portfolio.
+
+
+          Some projects are still in progress; excuse the underdeveloped posts. 
         # imageUrl: "<image link>" # optional
         # imageTitle: "<title of image as alt>" # optional
         imageWidth: 120 # custom size
@@ -91,7 +105,7 @@ params:
     linkFullImages: false
   
   editPost:
-    URL: https://github.com/clayton14/MySite2.0
+    URL: "https://github.com/clayton14/MySite2.0"
     Text: "Suggest Changes"
     appendFilePath: true 
    
