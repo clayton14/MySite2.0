@@ -38,9 +38,9 @@ params:
   defaultTheme: dark
   TocSide: left
   external: true
+  custom_css:
+    - css/img-tweaks.css
 
-  # security:
-  #   enableInlineShortcodes: true
 
   profileMode:
         enabled: true
@@ -54,8 +54,6 @@ params:
 
 
           Some projects are still in progress; excuse the underdeveloped posts. 
-        # imageUrl: "<image link>" # optional
-        # imageTitle: "<title of image as alt>" # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
         buttons:
@@ -68,7 +66,6 @@ params:
         - identifier: Notes
           name: Notes
           url: /posts/notes/
-
 
   contentDir: content
   
@@ -83,19 +80,10 @@ params:
 
 
   keywords: [Blog, Portfolio, Engineering, Computers, Codeing]
-
-  # homeInfoParams:
-  #   Title: "Welcome to my Tech Journal"
-  #   Content: 
-  #     "This is where I document all my projects and Ideas to share with you. 
-  #     If you like the content consider sharing with a friend 😃.\n\n
-  #     If you want to contact to me you can send me an email at askme@claytoneasley.org \n\nor click the mail button below"
-      
+  
   socialIcons:
     - name: github
       url: https://github.com/clayton14
-    # - name: instagram
-    #   url: https://www.instagram.com/claytoneasley77/
     - name: linkedin
       url: https://www.linkedin.com/in/clayton-easley/
     # - name: email
@@ -109,8 +97,6 @@ params:
     Text: "Suggest Changes"
     appendFilePath: true 
    
-
-
 menu:
   main:
   - identifier: Search

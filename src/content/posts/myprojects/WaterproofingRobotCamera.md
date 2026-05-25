@@ -55,7 +55,11 @@ If any water leaks into the electronic enclosures it’s an immediate game over.
 
 ## The Brains
 
-For the brains of the camera I chose the [raspberry pi zero 2w](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) for its compact form factor and ARM Cortex-A53 clocked at 1GHz. The pi zero also supports h.264 video compression which helps reduce the bandwidth. The high clock speed and added h.264 encoding would be more than enough for video streaming 24fps at SD to HD quality. 
+For the brains of the camera I chose the [raspberry pi zero 2w](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) for its compact form factor and ARM Cortex-A53 clocked at 1GHz. 
+
+The pi zero also supports h.264 video compression which helps reduce the bandwidth. 
+{{< figure src="/picam/pizero.webp" class="img-right" with=200 height=200  alt="raspberry-pi-zero-2-w" >}}
+The high clock speed and added h.264 encoding would be more than enough for video streaming 24fps at SD to HD quality. 
 
 
 The second reason the pi zero was chosen was due to it's wide adoption and Linux support. There are many, probably faster,  SBC in this formfactor our there, but I did not want to hit a dead end with unsupported distributions and hardware with other boards. Regardless, [dead ends](#battling-ros) were hit anyway.  
