@@ -30,11 +30,11 @@ editPost:
 
 # Introduction
 
-During my Freshman year (2023 to 2024) I had joined my prevoius universities IEEE club, which hostes a number of student projects.
-One of the most ambitious projects was the under water robotics team, which particapates each year in the [MATE ROVs Explorer Class](https://materovcompetition.org/explorer) compitition. Although we all worked together, we each had diffrent tasks, and my task was to devlop 3 waterproof networked camera modules for the pilot. 
-With the clock already ticking I had to quickely get the subsystem working with the robot in time for the compitition.
-
-I will be sharing my desing alongside the challenges I had faced and how I overcame them with the resources I had avaible.
+During my Freshman year (2023 to 2024), I joined my previous university's IEEE club, which hosts several student projects. 
+One of the most ambitious projects was the underwater robotics team, which participates each year in the [MATE ROVs Explorer Class](https://materovcompetition.org/explorer).
+Although we all worked together, my task was to develop 3 waterproof networked camera modules for the pilot.
+With the clock already ticking, I had to quickly get the subsystem working with the robot in time for the competition.
+I will be sharing my design, along with the challenges I faced and how I overcame them using the resources I had available.
 
 
 
@@ -62,7 +62,7 @@ The pi zero also supports h.264 video compression which helps reduce the bandwid
 The high clock speed and added h.264 encoding would be more than enough for video streaming 24fps at SD to HD quality. 
 
 
-The second reason the pi zero was chosen was due to it's wide adoption and Linux support. There are many, probably faster,  SBC in this formfactor our there, but I did not want to hit a dead end with unsupported distributions and hardware with other boards. Regardless, [dead ends](#battling-ros) were hit anyway.  
+The second reason the pi zero was chosen was due to it's wide adoption and Linux support. There are many, probably faster,  SBC in this formfactor our there, but I did not want to hit a dead end with unsupported distributions as [ROS](https://www.ros.org/) was a requirement Regardless, [dead ends](#battling-ros) were hit anyway.  
 
 ### The Camera 
 
@@ -91,7 +91,6 @@ Put image here
 
 Knowing there I have to account for a total of three cameras I did some rough bandwidth calcuations.
 
-$$ y=mx+b $$
 
 ### Waterproof Enclouser
 
