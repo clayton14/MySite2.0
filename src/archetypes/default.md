@@ -10,7 +10,7 @@ description:
 # exactly one of: Electronics | Robotics and Embedded | Software | Fabrication
 categories:
 cover:
-    image:
+    image: imgs/
 
 editPost:
     URL: https://github.com/clayton14/MySite2.0
