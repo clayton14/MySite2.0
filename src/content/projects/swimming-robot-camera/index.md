@@ -9,18 +9,16 @@ tags:
     - Robotics
     - Linux
     - ROS1
-    - IEEE
     - Raspberry Pi Zero PoE
     - Waterproofing
     - MATE ROV
-    - Docker
 description: How my robotics team and I worked together to design waterproof PoE cameras using a Raspberry Pi Zero
 categories: ["Robotics and Embedded"]
 
 weight: 1
 
 cover:
-    image:
+    image: imgs/2poecameras.webp
 
 editPost:
     URL: https://github.com/clayton14/MySite2.0
