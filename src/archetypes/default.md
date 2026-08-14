@@ -7,6 +7,7 @@ ShowToc: true
 author: Clayton Easley
 tags:
 description: 
+# exactly one of: Electronics | Robotics and Embedded | Software | Fabrication
 categories:
 cover:
     image:

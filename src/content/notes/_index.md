@@ -9,7 +9,8 @@ tags:
     - Fixes
     - References
 weight: 1
-categories: ["Software", "Engineering", "Electronics"]
+aliases:
+  - /posts/notes/
 description: 
 paginate: 10
 

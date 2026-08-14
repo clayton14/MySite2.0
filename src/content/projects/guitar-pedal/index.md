@@ -7,7 +7,7 @@ ShowToc: true
 author: Clayton Easley
 tags:
 description: 
-categories:
+categories: ["Electronics"]
 cover:
     image:
 

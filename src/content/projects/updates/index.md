@@ -7,8 +7,10 @@ ShowToc: true
 author: Clayton Easley
 tags:
 description: 
-categories:
+categories: ["Software"]
 weight: 2
+aliases:
+  - /posts/myprojects/updates/
 cover:
     image:
 

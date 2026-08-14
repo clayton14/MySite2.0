@@ -10,8 +10,9 @@ tags:
     - LTspice
     - audio
     - filters
+    - Simulation
 description: Notes on how to send .wav files through simulated analog circuits in LTspice
-categories: ["Electronics", "Simulation"]
+categories: ["Electronics"]
 
 math: true
 

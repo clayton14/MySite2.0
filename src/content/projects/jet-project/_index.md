@@ -5,10 +5,12 @@ draft: false
 ShowToc: true
 searchHidden: true
 author: Clayton Easley
-categories: ["Projects"]
+categories: ["Fabrication"]
 tags: ["engineering", "welding"]
 description: "During my highschool Dual enrollment welding program I decided to start working on building a pulse jet! Here is how I did it."
 weight: 2
+aliases:
+  - /posts/myprojects/jetproject/
 
 ---
 

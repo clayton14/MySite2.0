@@ -5,11 +5,13 @@ draft: false
 searchHidden: true
 ShowToc: true
 author: Clayton Easley
-categories: ["Projects"]
+categories: ["Fabrication"]
 tags: ["engineering", "welding"]
 description: "Manufacturing a stainless steel cone for the valveless pulsejet"
 weight: 5
 page: 2
+aliases:
+  - /posts/myprojects/jetproject/cone/
 cover:
 #   image: img/MakingJet.webp
 ---

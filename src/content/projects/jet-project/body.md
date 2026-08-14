@@ -4,14 +4,16 @@ date: 2022-10-01T17:33:07-04:00
 draft: false
 ShowToc: true
 author: Clayton Easley
-categories: ["Projects"]
+categories: ["Fabrication"]
 tags: ["engineering", "welding"]
 description: "During my highschool Dual enrollment welding program I decided to start working on building a pulse jet! Here is how I did it."
 weight: 4
 page: 1
+aliases:
+  - /posts/myprojects/jetproject/body/
 ---
 
-{{< figure src="/jet_img/MakingJet.webp" alt="Valveless pulsejet in a workshop held by bench vice">}}
+{{< figure src="/projects/jet-project/imgs/MakingJet.webp" alt="Valveless pulsejet in a workshop held by bench vice">}}
 
 <!-- Haven't posted in a while and have been a bit busy with school.  I have decided to update you with one of my long and difficult projects. A project that might as well kill me if I am not careful enough. Yes, you read the title correctly, I am attempting to build a Valveless pulsejet. I have been working on this project for almost two years! Due to school and work finding the time to put this article together and post it took a significant amount of time, and well… and courage if i'm being honest.
 
@@ -27,7 +29,7 @@ The size of the jet is not that much of an issue, I have seen people make much s
 
 <!-- ![Diagram of a pulse jet pulsing](../JetDiagram.webp) -->
 
-{{< figure src="/jet_img/JetDiagram.webp" alt="Diagram of a pulse jet pulsing">}}
+{{< figure src="/projects/jet-project/imgs/JetDiagram.webp" alt="Diagram of a pulse jet pulsing">}}
 
 ## Who In Their Right Mind Would Do This?   
 
@@ -45,7 +47,7 @@ I still don't want this thing to become a bomb, so I will create a separate post
 
 I have linked other websites where you can find blueprints but I will include the ones I made here. They aren't very pretty but planning things out is always a good step to take.
 
-{{< figure src="/jet_img/Drawlings.webp" alt="My crappy blueprints I made on isometric graph paper">}}
+{{< figure src="/projects/jet-project/imgs/Drawlings.webp" alt="My crappy blueprints I made on isometric graph paper">}}
 
 My crappy blueprints I made on isometric graph paper.
 
@@ -61,9 +63,9 @@ This project required me to weld all the pisces together so I would need all the
 |                                                                   |                                                                              |        |
 | ----------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------ |
 | Picture                                                           | Item                                                                         | Amount |
-| {{< figure src="/jet_img/elbow.webp" alt="Diagram of a pulse jet pulsing">}} | 3.5" Stainless 90° Mandrel Bend Elbow                                        | x2     |
-| {{< figure src="/jet_img/reducer.webp" alt="Stainless Steel Reducer">}} | Stainless Steel T201 Exhaust Piping Reducer 3.5" to 4" Universal 3.7" length        | x2   |
-| {{< figure src="/jet_img/StructuralSteelPipe.webp" alt="5 SCH 40 Structural Steel Pipe" >}} | 5" SCH 40 (5.563 OD X .258 wall) A-500 ERW Structural Steel Pipe             | x1     |
+| {{< figure src="/projects/jet-project/imgs/elbow.webp" alt="Diagram of a pulse jet pulsing">}} | 3.5" Stainless 90° Mandrel Bend Elbow                                        | x2     |
+| {{< figure src="/projects/jet-project/imgs/reducer.webp" alt="Stainless Steel Reducer">}} | Stainless Steel T201 Exhaust Piping Reducer 3.5" to 4" Universal 3.7" length        | x2   |
+| {{< figure src="/projects/jet-project/imgs/StructuralSteelPipe.webp" alt="5 SCH 40 Structural Steel Pipe" >}} | 5" SCH 40 (5.563 OD X .258 wall) A-500 ERW Structural Steel Pipe             | x1     |
 
 The next step would be obtaining all the parts if you want to base it off of my design. Another important step is making sure you have all the necessary tools to assemble the engine. Luckily for me I am enrolled in a technical school where they offer welding as a class. This way I could use their tools to work on this project. I have almost all the tools required at home. The only thing I was missing was a slip roll forming machine I used to make the exhaust cone.
 
@@ -83,18 +85,18 @@ Here is the part you have all been waiting for, assembly.  I wanted to start of
 
 |                                                      |                                                                                     |
 | ---------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| {{< figure src="/jet_img/ReducerAndPipe.webp" alt="Reducer fitted into pipe">}} | {{< figure src="/jet_img/TackWeldLocationDiagram.webp" alt="All the tack welds are across from one another">}} |
+| {{< figure src="/projects/jet-project/imgs/ReducerAndPipe.webp" alt="Reducer fitted into pipe">}} | {{< figure src="/projects/jet-project/imgs/TackWeldLocationDiagram.webp" alt="All the tack welds are across from one another">}} |
 
 At the time, I wasn't the best pipe welder so my welds did not come out perfect. I will probably go back and redo most of my welds on this project because they are a bit messy. Anyway after welding both reducers onto the combustion chamber you should have something that looks like this
 
-{{< figure src="/jet_img/Weld.webp" alt="Reducer welded to pipe">}}
+{{< figure src="/projects/jet-project/imgs/Weld.webp" alt="Reducer welded to pipe">}}
 
 Now that this part of the combustion chamber is complete I moved onto the “macaroni piece” made of the two 90 degree elbows. I probably could have found one piece that just loops around instead of welding two 90 degree elbows but as long as the jet engine loops around it should work as intended.
 
 I then welded the elbow piece onto one one side of the combustion chamber and I ended up with something that looked like this.
 
 
-{{< figure src="/jet_img/JetNoCone.webp" alt="Pluse jet frame missing the cone" >}}
+{{< figure src="/projects/jet-project/imgs/JetNoCone.webp" alt="Pluse jet frame missing the cone" >}}
 
 
 Then again my welds here are the best but I fixed them later on.

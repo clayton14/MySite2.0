@@ -59,13 +59,13 @@ params:
         buttons:
         - identifier: About Me
           name: About Me
-          url: /posts/about
+          url: /about/
         - identifier: projects
           name: Projects
-          url: /posts/myprojects/
+          url: /projects/
         - identifier: Notes
           name: Notes
-          url: /posts/notes/
+          url: /notes/
 
   contentDir: content
   
@@ -109,10 +109,10 @@ menu:
     weight: 20
   - identifier: projects
     name: Projects
-    url: /posts/myprojects/
+    url: /projects/
     weight: 10
   - identifier: notes
     name: Notes
-    url: /posts/notes
+    url: /notes/
     weight: 15
 

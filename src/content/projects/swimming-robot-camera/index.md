@@ -15,7 +15,7 @@ tags:
     - MATE ROV
     - Docker
 description: How my robotics team and I worked together to design waterproof PoE cameras using a Raspberry Pi Zero
-categories: ["Robotics", "Electronics"]
+categories: ["Robotics and Embedded"]
 
 weight: 1
 
@@ -58,7 +58,7 @@ If any water leaks into the electronic enclosures it’s an immediate game over.
 For the brains of the camera I chose the [raspberry pi zero 2w](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) for its compact form factor and ARM Cortex-A53 clocked at 1GHz. 
 
 The pi zero also supports h.264 video compression which helps reduce the bandwidth. 
-{{< figure src="/picam/pizero.webp" class="img-right" with=200 height=200  alt="raspberry-pi-zero-2-w" >}}
+{{< figure src="/projects/swimming-robot-camera/imgs/pizero.webp" class="img-right" with=200 height=200  alt="raspberry-pi-zero-2-w" >}}
 The high clock speed and added h.264 encoding would be more than enough for video streaming 24fps at SD to HD quality. 
 
 

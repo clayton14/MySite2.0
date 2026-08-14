@@ -10,6 +10,8 @@ tags:
     - CMake
 description: "simple CMake project template"
 categories: ["Software"]
+aliases:
+  - /posts/notes/cmake/
 cover:
     image:
 
