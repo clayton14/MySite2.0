@@ -13,7 +13,7 @@ tags:
     - Waterproofing
     - MATE ROV
 description: How my robotics team and I worked together to design waterproof PoE cameras using a Raspberry Pi Zero
-categories: ["Robotics and Embedded"]
+categories: ["Robotics"]
 
 weight: 1
 
