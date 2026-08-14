@@ -44,21 +44,18 @@ params:
 
   profileMode:
         enabled: true
-        title: |
-           Hello and Welcome !
-
-           I'm Clayton Easley a Computer Engineer 
+        title: "Computer Engineering Student"
           
         subtitle: >
-          Hi, my name is Clayton. I am currently a student at the University of Massachusetts Lowell! I created this site to journal my projects, ideas, and life experiences, and it sits somewhere between a blog and a Portfolio.
+          Hello and welcom to my site, I am currently a student at the University of Massachusetts Lowell! 
+          I created this site to showcase my projects, ideas, and share some life experiences. Some projects are still in progress; excuse the underdeveloped posts. 
+        
+        imageWidth: 120 
+        imageHeight: 120 
 
-
-          Some projects are still in progress; excuse the underdeveloped posts. 
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
         buttons:
         - identifier: About Me
-          name: About Me
+          name: About 
           url: /about/
         - identifier: projects
           name: Projects
@@ -79,15 +76,15 @@ params:
   ShowCodeCopyButtons: true
 
 
-  keywords: [Blog, Portfolio, Engineering, Computers, Codeing]
+  keywords: [Portfolio, Engineering, Computers, Blog]
   
   socialIcons:
     - name: github
       url: https://github.com/clayton14
     - name: linkedin
       url: https://www.linkedin.com/in/clayton-easley/
-    # - name: email
-    #   url: mailto:askme@claytoneasley.org
+      # - name: email
+      # url: mailto:askme@claytoneasley.org
 
   cover:
     linkFullImages: false
@@ -103,16 +100,19 @@ menu:
     name: Search 
     weight: 5
     url: /search/
+
   - identifier: categories
     name: All Categories
     url: /categories/
-    weight: 20
+    weight: 3
+  
   - identifier: projects
     name: Projects
     url: /projects/
-    weight: 10
+    weight: 1
+  
   - identifier: notes
     name: Notes
     url: /notes/
-    weight: 15
+    weight: 2
 
