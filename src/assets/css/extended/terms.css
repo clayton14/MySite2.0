@@ -1,0 +1,27 @@
+.cat-icon-button svg {
+    width: 1.4em;
+    height: 1.4em;
+    vertical-align: -0.18em;
+    margin: 5px 0px 0px 5px;
+}
+
+.cat-icon-header svg {
+    float:left;
+    width: 2.5em;
+    height: 2.5em;
+    vertical-align: -0.2rem;
+    margin: 5px 5px 0px 5px;
+}
+
+.cat-page-header {
+    align-items: end;
+    margin: var(--content-gap) 0 calc(var(--content-gap) * 1.5);
+    grid-template-columns: var(--thumb) ;
+    column-gap: var(--gap);
+}
+
+.cat-page-header h1{
+    font-size: 40px;
+    margin-bottom: var(--content-gap);
+    text-transform: capitalize;
+}
