@@ -13,7 +13,7 @@ categories: ["Software"]
 aliases:
   - /posts/notes/cmake/
 cover:
-    image:
+    image: imgs/cmake_logo.webp
 
 editPost:
     URL: https://github.com/clayton14/MySite2.0
