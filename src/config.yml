@@ -1,6 +1,6 @@
 ### Base Site Prams ###
 baseURL: "https://claytoneasley.org"
-languageCode: en-us
+locale: en-us
 title: Clayton Easley
 theme: PaperModX
 author:
@@ -32,6 +32,15 @@ markup:
     renderer:
       unsafe: true
 
+### Taxonomies ###
+# Declaring this block REPLACES Hugo's defaults, so categories and tags
+# must be re-listed here or they stop working 
+taxonomies:
+  category: categories
+  tag: tags
+  status: status
+  context: context
+
 params:
   env: production
   Description: "Hi my name is Clayton. I am a student at the University of Massachusetts Lowell Studying Computer Engineering. interested in a plethora of things including but not limited to, programming,  electronics, art, welding, robots, and machine learning."
@@ -47,7 +56,7 @@ params:
         title: "Computer Engineering Student"
           
         subtitle: >
-          Hello and welcom to my site, I am currently a student at the University of Massachusetts Lowell! 
+          Hello and welcome to my site, I am currently a student at the University of Massachusetts Lowell! 
           I created this site to showcase my projects, ideas, and share some life experiences. Some projects are still in progress; excuse the underdeveloped posts. 
         
         imageWidth: 120 
@@ -65,7 +74,12 @@ params:
           url: /notes/
 
   contentDir: content
-  
+
+  # Sections that count as "content" for site-wide listings.
+  mainSections:
+    - projects
+    - notes
+
   ShowBreadCrumbs: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -98,21 +112,20 @@ menu:
   main:
   - identifier: Search
     name: Search 
-    weight: 5
+    weight: 50
     url: /search/
 
   - identifier: categories
     name: All Categories
     url: /categories/
-    weight: 3
+    weight: 30
   
   - identifier: projects
     name: Projects
     url: /projects/
-    weight: 1
+    weight: 10
   
   - identifier: notes
     name: Notes
     url: /notes/
-    weight: 2
-
+    weight: 20
