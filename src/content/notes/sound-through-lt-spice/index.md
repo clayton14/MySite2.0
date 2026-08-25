@@ -1,7 +1,7 @@
 ---
 title: "Send Sound Through Your Circuit Designs"
 date: 2026-01-06T14:29:39-05:00
-draft: true
+draft: false
 searchHidden: false
 ShowToc: true
 author: Clayton Easley
