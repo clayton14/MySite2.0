@@ -7,7 +7,12 @@ ShowToc: true
 author: Clayton Easley
 tags:
 description: 
-categories:
+categories:      
+
+status:          # Complete | In Progress | Archived
+context:         # Academic | Personal
+featured: false  # true pins to  homepage
+
 cover:
     image: imgs/
 
