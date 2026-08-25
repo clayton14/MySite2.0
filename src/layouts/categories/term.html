@@ -1,0 +1,51 @@
+{{- define "main" }}
+
+{{ partial "breadcrumbs.html" . }}
+<header class="cat-page-header">
+    {{- with .Params.icon }}
+        {{- with resources.Get (printf "icons/%s.svg" .) }}
+            <span class="cat-icon-header">
+                {{ .Content | safeHTML }}
+            </span>
+        {{- end }}
+    {{- end }}
+        <h1>{{ .Title }}</h1>
+</header>
+    {{- with .Description }}
+    <div class="post-description">
+        {{ . | markdownify }}
+    </div>
+    {{ end }}
+
+{{/*  Sort the categoreies  */}}
+    {{- $tops := slice }}
+    {{- range .Pages}}
+        {{- if and .Parent (eq .Parent.RelPermalink .FirstSection.RelPermalink) }}
+            {{- $tops = $tops | append . }}
+        {{- end }}
+    {{- end }}
+    {{- range $section := slice "projects" "notes"}}
+        {{- with where $tops "Section" $section}}
+            <h2>
+                {{ $section | humanize  }}
+                {{ "---" | markdownify}}
+            </h2>
+            {{- range . }}
+            <article class="post-entry">
+                {{/*  For cover image  */}}
+                {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+                {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+
+                <header class="entry-header"> {{ .Title }} </header>
+                {{- with .Description }}
+                    <section class="entry-content"><p>{{ . | plainify }}</p></section>
+                {{- end}}
+                    <footer class="entry-footer">
+                        {{- partial "post_meta.html" . -}}
+                    </footer>
+                <a href="{{ .Permalink}}" class="entry-link" aria-label="post link to {{ .Title | plainify }}"></a>
+            </article>
+            {{- end }}
+        {{- end }}
+    {{- end }}
+{{- end }}

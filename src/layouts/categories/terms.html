@@ -19,7 +19,7 @@
         <a href="{{ .Permalink }}">
             {{- with .Params.icon }}
                 {{- with resources.Get (printf "icons/%s.svg" .) }}
-                <span class="cat-icon">{{ .Content | safeHTML }}</span>
+                <span class="cat-icon-button">{{ .Content | safeHTML }}</span>
                 {{- end }}
             {{- end }}
             {{ .Title }} <sup><strong><sup>{{ $count }}</sup></strong></sup>

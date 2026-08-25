@@ -1,0 +1,12 @@
+{{- define "main" }}
+
+
+{{- $projects := (site.GetPage "/projects").Pages }}
+{{- $notes := (site.GetPage "/notes").Pages }}
+
+{{/*  Default home page  */}}
+{{- partial "index_profile.html" . }}
+
+{{/*  {{- with where $projects ".Params.featured"}}  */}}
+
+{{- end }}  {{/*  end main  */}} 
