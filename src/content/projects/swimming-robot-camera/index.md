@@ -36,7 +36,7 @@ I will be sharing my design, along with the challenges I faced and how I overcam
 
 
 
-### About the compition
+## About the compition
 
 The best way I can describe [the MATE ROV compition](https://materovcompetition.org/) is like [FRC](https://firstroboticscanada.org/frc/) but... in a pool. Diffrent robotics teams work together to build a [remotely operated underwater vehicle](https://en.wikipedia.org/wiki/Remotely_operated_underwater_vehicle), *hence the name ROV*, and compleat a set of diffrent tasks for points. 
 Due to the fact that we are submerged at least 10 feet in a pool, waterproofing is a forefront challenge. On top of this, the ROV pilot can't directly look into the water without penality. This makes having a relable video stream with as little latency to the pilot critical. Without it you may as well be blindfolded. 
@@ -45,22 +45,25 @@ Due to the fact that we are submerged at least 10 feet in a pool, waterproofing 
 
 # Physical Design
 ---
+
+> Because this post focuses on cameras, there are many missing details on how the entire robot was designed and implmented.   
+
 Step one was coming up with a solid design for the camera module and its housing. 
 If any water leaks into the electronic enclosures it’s an immediate game over. Before the housing is constructed the electronics must be suited for the task at hand. The pilot needed several different camera angles mounted around the robot to help steer the ROV and manipulate 
 <a target="_blank" href="https://bluerobotics.com/store/thrusters/grippers/newton-gripper-asm-r2-rp/"> The Gripper </a>
 
 
 
-## The Brains
+### The Brains
 
 For the brains of the camera I chose the [raspberry pi zero 2w](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) for its compact form factor and ARM Cortex-A53 clocked at 1GHz. 
 
 The pi zero also supports h.264 video compression which helps reduce the bandwidth. 
 {{< figure src="/projects/swimming-robot-camera/imgs/pizero.webp" class="img-right" with=200 height=200  alt="raspberry-pi-zero-2-w" >}}
-The high clock speed and added h.264 encoding would be more than enough for video streaming 24fps at SD to HD quality. 
+The clock speed and added h.264 encoding would be more than enough for video streaming 24fps at SD to HD quality. 
 
 
-The second reason the pi zero was chosen was due to it's wide adoption and Linux support. There are many, probably faster,  SBC in this formfactor our there, but I did not want to hit a dead end with unsupported distributions as [ROS](https://www.ros.org/) was a requirement Regardless, [dead ends](#battling-ros) were hit anyway.  
+The second reason the pi zero was chosen was due to it's wide adoption and Linux support. There are many, probably faster, SBC in this formfactor our there. But, I didn't want run into problems with unsupported distributions with [ROS](https://www.ros.org/) being a requirement. Regardless, [dead ends](#battling-ros) were hit anyway.  
 
 ### The Camera 
 
@@ -74,31 +77,32 @@ Cameras with a rolling shutter capture an image one row of pixels at a time.
 which when acclerating can cause distortion, which might make it harder for the pilot to operate. 
 
 
-## Data and Power
+### Data and Power
 
-With a camera and computer chosen I had to find a way to power and communicate with them. 
-The first thing that comes to mind when I hear *power* and *data* is [Power over Ethernet](https://en.wikipedia.org/wiki/Power_over_Ethernet) (PoE) which would allow us to power the cameras with a network switch as a power supply. 
+With a camera and computer now chosen I had to find a way to power and communicate with them and send a video stream back to the pilot. The ROV had an onboard router which briged the cameras to the pilot through [The ROV's Tether](https://bluerobotics.com/store/cables-connectors/cables/fathom-rov-tether-rov-ready/). The switch also routed data to the onboard computer as well as the cameras (not in image). 
+
+The first thing that comes to mind when I hear *power* and *data* is [Power over Ethernet](https://en.wikipedia.org/wiki/Power_over_Ethernet) (PoE) which would allow us to power the cameras with the same power supply as the network switch they are attached to. 
+
+{{< figure src="imgs/CameraNewtorkToplogy.webp" 
+           alt="ROV's Camera Network Toplogy" 
+           caption="ROV's camera network toplogy ">}}
+
+
 Each camera then only needs one cable for both power and data. 
-The raspberrypi zero dose not have native in supprt for Ethernet or PoE, but this be sloved using a hat.  
+The raspberrypi zero dose not have native supprt for Ethernet or PoE, but this be sloved using the [waveshare PoE USB hat](https://www.waveshare.com/poe-eth-usb-hub-hat.htm).  
 
-{{< details summary="camera network toplogy" >}}
+After putting together the camera and Waveshare HAT I ended up with the brick of electronics you see below. 
 
-Put image here
+{{< figure src="/projects/swimming-robot-camera/imgs/CameraModule.webp"  
+    with=200 height=200
+    alt="raspberry-pi-zero-2-w with whaveshare hat" 
+    caption="Raspberry pi camera module">}}
 
-{{< /details >}}
-
-Knowing there I have to account for a total of three cameras I did some rough bandwidth calcuations.
 
 
-### Waterproof Enclouser
 
-{{< details summary="See Full Bill of Materials" >}}
+## Waterproof Enclouser
 
----
-
-PUT TABLE HERE
-
-{{< /details >}}
 
 <br>
 
